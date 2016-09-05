@@ -35,11 +35,12 @@ def homepage():
 
 @app.route('/brograph')
 def graphing():
-	entryLst, fieldsLst = logParser(uploadpath)
+	entryDict, fieldsLst = logParser(uploadpath)
 
 	try:
-		pieIP_graph_data, pieQuery_graph_data = createGraph(entryLst)
-		return render_template("brograph.html", pieIP_graph_data=pieIP_graph_data, pieQuery_graph_data=pieQuery_graph_data, fieldsLst=fieldsLst)
+		#pieIP_graph_data, pieQuery_graph_data = createGraph(entryDict)
+		pieIP_graph_data = createGraph(entryDict)
+		return render_template("brograph.html", pieIP_graph_data=pieIP_graph_data, fieldsLst=fieldsLst)
 	except Exception, e:
 		return(str(e))
 

@@ -38,7 +38,6 @@ def logParser(uploadpath):
                     tempDict[fieldsLst[i]] = tempLst[i]
                 entryLst.append(tempDict)
 
-        tempLst = [fieldsLst, tempLst]
-        entryDict[filename] = tempLst
+        entryDict[filename] = [fieldsLst, entryLst]
     # Return of a list of dictonaries of all entries
     return entryDict, fieldsLst

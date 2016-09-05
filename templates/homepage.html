@@ -8,30 +8,32 @@
 
 {% for key, value in entryDict.iteritems() %}
 <button class="accordion">{{key}}</button>
-<div class="panel">
-    <!-- table creation -->
-    <div style="height:500px;overflow:auto;">
-    <table>
-        <tr>
-          <th>id</th>
-          {% for x in value %}
-          <th>{{x}}</th>
-          {% endfor %}
-        </tr>
-      {% set counter = 1 %}
-      {% for entry in dnsLst%}
-      <tr>
-          <td>{{ counter }}</td>
-          {% for x in fieldsLst %}
-            <td>{{entry[x]}}</td>
-          {% endfor %}
-      </tr>
-      {% set counter = counter + 1 %}
-      {% endfor %}
-    </table>
-    </div>
-</div>
+  <div class="panel" style="width=70%">
+      <!-- table creation -->
+      <div style="height:500px;overflow:auto;">
+        <table>
+            <!-- Setup fields -->
+            <tr>
+              <th>id</th>
+              {% for field in value[0] %}
+              <th>{{field}}</th>
+              {% endfor %}
+            </tr>
 
+          <!-- print entries -->
+          {% set counter = 1 %}
+          {% for entry in value[1]%}
+            <tr>
+                <td>{{ counter }}</td>
+                {% for field in value[0] %}
+                    <td>{{entry[field]}}</td>
+                {% endfor %}
+            </tr>
+          {% set counter = counter + 1 %}
+          {% endfor %}
+        </table>
+      </div>
+  </div>
 {% endfor %}
 
 
