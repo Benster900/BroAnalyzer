@@ -12,6 +12,7 @@ def logParser(uploadpath):
 
     filenameLst = []
     for filename in os.listdir(uploadpath):
+        print filename
         entryLst = []
         tempLst = []
         fieldsLst = []

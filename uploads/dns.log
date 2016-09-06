@@ -1,327 +1,615 @@
 #separator \x09
-#set_separator 	,
-#empty_field   	(empty)
-#unset_field   	-
-#path  	dns
-#open  	2016-09-04-17-00-09
-#fields	ts     	uid    	id.orig_h      	id.orig_p      	id.resp_h      	id.resp_p      	proto  	trans_id       	rtt    	query  	qclass 	qclass_name    	qtype     	qtype_name     	rcode  	rcode_name     	AA     	TC     	RD     	RA     	Z      	answers	TTLs   	rejected
-#types 	time   	string 	addr   	port   	addr   	port   	enum   	count  	interval       	string 	count  	string 	count  	string 	count  	string 	bool   	bool      	bool   	bool   	count  	vector[string] 	vector[interval]       	bool
-1473022788.737599      	CqGoxr2YwToOZfd7G3     	64.137.168.164 	137    	64.137.168.255 	137    	udp    	56891  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022789.517734      	CqGoxr2YwToOZfd7G3     	64.137.168.164 	137    	64.137.168.255 	137    	udp    	56891  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022790.283521      	CqGoxr2YwToOZfd7G3     	64.137.168.164 	137    	64.137.168.255 	137    	udp    	56891  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022800.700227      	CvvNyw1O5dWnjnne6g     	64.137.168.132 	43164  	8.8.8.8	53     	udp    	46624  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022800.712109      	CXdHhQ28SZ6HQkJPpd     	64.137.168.132 	60806  	8.8.8.8	53     	udp    	44628  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022800.776719      	CBhJgM3UDdcijKyKc6     	64.137.168.132 	44793  	8.8.8.8	53     	udp    	52070  	-      	132.168.137.64.in-addr.arpa    	-      	-	--      	0      	NOERROR	F      	F      	F      	T      	0      	c999951173-cloudpro-274471617.cloudatcost.com  	299.000000     	F
-1473022800.785981      	CKzcD03YTn90EFBrE5     	64.137.168.132 	53632  	8.8.8.8	53     	udp    	57735  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022800.875241      	CSGn4f46c3ommk80c4     	64.137.168.132 	49453  	8.8.8.8	53     	udp    	857    	-      	148.168.137.64.in-addr.arpa    	-      	-	--      	0      	NOERROR	F      	F      	F      	T      	0      	c999944721-cloudpro-313038584.cloudatcost.com  	299.000000     	F
-1473022800.885256      	CQaHks4LFbhmQh0O1c     	64.137.168.132 	42696  	8.8.8.8	53     	udp    	37829  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022800.920897      	CJZN4o1xOsG9i0MMqb     	64.137.168.132 	37883  	8.8.8.8	53     	udp    	17663  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.014976      	CNgHHd3DejLuS0UEJ5     	64.137.168.132 	42428  	8.8.8.8	53     	udp    	23799  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.051585      	C2nbMK3yWnieHzvKP6     	64.137.168.132 	53515  	8.8.8.8	53     	udp    	37053  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.220645      	CyOBF91YsafEBOCgGh     	64.137.168.132 	42740  	8.8.8.8	53     	udp    	14933  	-      	8.8.8.8.in-addr.arpa   	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	google-public-dns-a.google.com 	21599.000000   	F
-1473022801.296985      	C7bjJA1QA66VL4mWVe     	64.137.168.132 	50522  	8.8.8.8	53     	udp    	53099  	-      	93.168.137.64.in-addr.arpa     	-      	-	--      	0      	NOERROR	F      	F      	F      	T      	0      	c452258321-cloudpro-565399463.cloudatcost.com  	299.000000     	F
-1473022801.331262      	CvU9xf24yDNyhw88sh     	64.137.168.132 	60436  	8.8.8.8	53     	udp    	25174  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.367903      	Chr40n4hk0NwD0AYM3     	64.137.168.132 	35470  	8.8.8.8	53     	udp    	1379   	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.404004      	CflZjM1xk5mrZHTMc6     	64.137.168.132 	43679  	8.8.8.8	53     	udp    	48176  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.414432      	C8t5UC2nlpTUXCeYm5     	64.137.168.132 	35423  	8.8.8.8	53     	udp    	3036   	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.449233      	CVRddO35kQucI60C38     	64.137.168.132 	56496  	8.8.8.8	53     	udp    	34005  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.460753      	CNe8B31EFqklrHl2y      	64.137.168.132 	39441  	8.8.8.8	53     	udp    	47866  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.496257      	C7x2d38mbPTghQG12      	64.137.168.132 	59184  	8.8.8.8	53     	udp    	65039  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022801.508332      	CRWJIc3d2MkZrHOpE2     	64.137.168.132 	34757  	8.8.8.8	53     	udp    	37023  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473022831.647182      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41375  	-      	PHUTORA.COM    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022832.397146      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41375  	-      	PHUTORA.COM    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022833.162165      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41375  	-      	PHUTORA.COM    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022830.558538      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41374  	-      	PROXYSANDY.COM 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022831.308154      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41374  	-      	PROXYSANDY.COM 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022832.058606      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41374  	-      	PROXYSANDY.COM 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022822.556996      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41373  	-      	PROXYSANDY.COM 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022823.306386      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41373  	-      	PROXYSANDY.COM 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022824.144638      	CTQepl4GA4fpUvise5     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41373  	-      	PROXYSANDY.COM 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022904.253261      	CgPmQD3IiqjbCNEvEe     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49003  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022905.003150      	CgPmQD3IiqjbCNEvEe     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49003  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022905.753133      	CgPmQD3IiqjbCNEvEe     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49003  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022914.480243      	CgPmQD3IiqjbCNEvEe     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49004  	-      	I.TQ121.COM.CN 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022915.229264      	CgPmQD3IiqjbCNEvEe     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49004  	-      	I.TQ121.COM.CN 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022915.979287      	CgPmQD3IiqjbCNEvEe     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49004  	-      	I.TQ121.COM.CN 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022929.553376      	CMsSpd15mmULNHFb3g     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41376  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022930.405176      	CMsSpd15mmULNHFb3g     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41376  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022931.064129      	CMsSpd15mmULNHFb3g     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41376  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022940.595616      	CTmrQN31AMrmJVM8b8     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49005  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022941.344926      	CTmrQN31AMrmJVM8b8     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49005  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022942.095167      	CTmrQN31AMrmJVM8b8     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49005  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473022996.952704      	CZrbP021oHXr9MK23k     	fe80::d117:de98:5314:99df      	57231  	ff02::1:3      	5355   	udp    	13677  	-      	win-fo3og88r8d7	1	C_INTERNET      	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473022996.952731      	CMuzko3se6OWqGCjD5     	64.137.168.44  	57231  	224.0.0.252    	5355   	udp    	13677  	-      	win-fo3og88r8d7	1      	C_INTERNET255     	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023016.092715      	C5emeYsI0nTeViGmd      	fe80::8c34:1742:e5a8:307e      	52345  	ff02::1:3      	5355   	udp    	10932  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023016.093412      	CZVsyG3tLd0KPxcXY      	64.137.168.19  	64187  	224.0.0.252    	5355   	udp    	10932  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023085.773744      	CbGYGfa3KZzKNzWGl      	fe80::1532:b4ac:17e7:7445      	55899  	ff02::1:3      	5355   	udp    	9036   	-      	win-fo3og88r8d7	1	C_INTERNET      	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023085.774586      	CWkfs9BAtUiJLVlkc      	64.137.168.62  	55899  	224.0.0.252    	5355   	udp    	9036   	-      	win-fo3og88r8d7	1      	C_INTERNET255     	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023167.458224      	CNsaIK2Bl1VjYjjScg     	fe80::21c8:aa30:c678:1697      	54387  	ff02::1:3      	5355   	udp    	63161  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023167.458282      	CJjsUO34rHNHI1AGv2     	64.137.168.116 	58057  	224.0.0.252    	5355   	udp    	63161  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023164.609076      	CGLpAx2N1MdnAMhih6     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41377  	-      	GS1.BAIDU.COM  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023165.274152      	CGLpAx2N1MdnAMhih6     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41377  	-      	GS1.BAIDU.COM  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023166.038724      	CGLpAx2N1MdnAMhih6     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41377  	-      	GS1.BAIDU.COM  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023197.437856      	CicThV2kLBr4Tl1Zpa     	fe80::1dd:39b6:188d:90be       	63667  	ff02::1:3      	5355   	udp    	18853  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023197.437892      	Cn7paT1LFX7CuxR31e     	64.137.168.14  	64945  	224.0.0.252    	5355   	udp    	18853  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023230.272689      	Cj0ve71MzIBmVXx4D2     	fe80::250:56ff:fe95:77b7       	5353   	ff02::fb       	5353   	udp    	0      	-      	_ipps._tcp.local 	1C_INTERNET     	12     	PTR    	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023230.272787      	CWrlaK3s766kt6Yks8     	64.137.168.114 	5353   	224.0.0.251    	5353   	udp    	0      	-      	_ipps._tcp.local       	1      	C_INTERNET	12     	PTR    	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023238.915776      	C5v7nt1CJnE8poaad7     	fe80::4936:e111:1604:92d2      	64852  	ff02::1:3      	5355   	udp    	55041  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023238.915865      	CWswSm4EMhvaj87yQa     	64.137.168.65  	51530  	224.0.0.252    	5355   	udp    	55041  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023263.026669      	CoLic02pyn3A9Nd43l     	fe80::d117:de98:5314:99df      	58765  	ff02::1:3      	5355   	udp    	24681  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023263.442407      	CoLic02pyn3A9Nd43l     	fe80::d117:de98:5314:99df      	58765  	ff02::1:3      	5355   	udp    	24681  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023263.026712      	CeP1n725kzpoSdxkNe     	64.137.168.44  	58765  	224.0.0.252    	5355   	udp    	24681  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023263.442459      	CeP1n725kzpoSdxkNe     	64.137.168.44  	58765  	224.0.0.252    	5355   	udp    	24681  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023265.217116      	Ca7UjE1WjulmVIIPwk     	fe80::2104:48a5:2500:e661      	61815  	ff02::1:3      	5355   	udp    	57415  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023265.316361      	Ca7UjE1WjulmVIIPwk     	fe80::2104:48a5:2500:e661      	61815  	ff02::1:3      	5355   	udp    	57415  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023265.217264      	CTijNf4YNDbXSZAoqd     	64.137.168.182 	55508  	224.0.0.252    	5355   	udp    	57415  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023265.316395      	CTijNf4YNDbXSZAoqd     	64.137.168.182 	55508  	224.0.0.252    	5355   	udp    	57415  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023263.026601      	CrBtih1GZ2jUniQ7Ma     	64.137.168.44  	137    	64.137.168.255 	137    	udp    	47574  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023263.801936      	CrBtih1GZ2jUniQ7Ma     	64.137.168.44  	137    	64.137.168.255 	137    	udp    	47574  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023264.567792      	CrBtih1GZ2jUniQ7Ma     	64.137.168.44  	137    	64.137.168.255 	137    	udp    	47574  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023265.520369      	CdMFb92dBBMerk0HX2     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58565  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023266.284229      	CdMFb92dBBMerk0HX2     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58565  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023267.051596      	CdMFb92dBBMerk0HX2     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58565  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023277.332096      	Comrzd2uiHXtXFI4fi     	fe80::511:d348:ac27:ce64       	49778  	ff02::1:3      	5355   	udp    	7403   	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023277.332215      	Clp1fc2XL3p0DlamAh     	64.137.168.69  	62387  	224.0.0.252    	5355   	udp    	7403   	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023341.087421      	C2UHiB4eXc8cVIWb9j     	fe80::2104:48a5:2500:e661      	65101  	ff02::1:3      	5355   	udp    	42170  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023341.087500      	CBoJHXgqrSSHR8PSe      	64.137.168.182 	64107  	224.0.0.252    	5355   	udp    	42170  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023462.182621      	C6u9Xz4sx41SCDIBQ8     	fe80::9cc3:3806:1153:59f3      	56685  	ff02::1:3      	5355   	udp    	48843  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023462.182705      	CKyVm54E39DBeNJYLk     	64.137.168.68  	61435  	224.0.0.252    	5355   	udp    	48843  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023550.825673      	CHQKuY2Azlb2OoijGd     	fe80::5181:1a1b:ff45:9f5a      	55585  	ff02::1:3      	5355   	udp    	22338  	-      	xn--endereodeseublog-hpb  	1      	C_INTERNET     	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023550.932497      	CHQKuY2Azlb2OoijGd     	fe80::5181:1a1b:ff45:9f5a      	55585  	ff02::1:3      	5355   	udp    	22338  	-      	xn--endereodeseublog-hpb  	1      	C_INTERNET     	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023550.825868      	CFo9Vq3NmYRsksLjei     	64.137.168.93  	62192  	224.0.0.252    	5355   	udp    	22338  	-      	xn--endereodeseublog-hpb       	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023550.933445      	CFo9Vq3NmYRsksLjei     	64.137.168.93  	62192  	224.0.0.252    	5355   	udp    	22338  	-      	xn--endereodeseublog-hpb       	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023625.663467      	CvIAkd2cQymofmgn55     	fe80::8c34:1742:e5a8:307e      	51190  	ff02::1:3      	5355   	udp    	26345  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023625.762970      	CvIAkd2cQymofmgn55     	fe80::8c34:1742:e5a8:307e      	51190  	ff02::1:3      	5355   	udp    	26345  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023625.663568      	CV4CEs3ayBeZDaNFP3     	64.137.168.19  	54502  	224.0.0.252    	5355   	udp    	26345  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023625.764692      	CV4CEs3ayBeZDaNFP3     	64.137.168.19  	54502  	224.0.0.252    	5355   	udp    	26345  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023635.528548      	C8n1OB1wtOpr36tWk      	fe80::8c34:1742:e5a8:307e      	61859  	ff02::1:3      	5355   	udp    	18481  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023635.590593      	C8n1OB1wtOpr36tWk      	fe80::8c34:1742:e5a8:307e      	61859  	ff02::1:3      	5355   	udp    	18481  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023635.528606      	CLmOjw2aZUQNBNt8da     	64.137.168.19  	61486  	224.0.0.252    	5355   	udp    	18481  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023635.592957      	CLmOjw2aZUQNBNt8da     	64.137.168.19  	61486  	224.0.0.252    	5355   	udp    	18481  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023638.536821      	C0ewso1ragxrJoo7h7     	fe80::8c34:1742:e5a8:307e      	59076  	ff02::1:3      	5355   	udp    	44113  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023638.570353      	C0ewso1ragxrJoo7h7     	fe80::8c34:1742:e5a8:307e      	59076  	ff02::1:3      	5355   	udp    	44113  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023638.536904      	C2nGun1nBorSfrBhlj     	64.137.168.19  	65455  	224.0.0.252    	5355   	udp    	44113  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023638.573216      	C2nGun1nBorSfrBhlj     	64.137.168.19  	65455  	224.0.0.252    	5355   	udp    	44113  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023639.753117      	C06CsGqn7tpvmgxxe      	fe80::5181:1a1b:ff45:9f5a      	52986  	ff02::1:3      	5355   	udp    	41990  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023639.753155      	CFBYY01UToV1lN7HQh     	64.137.168.93  	60675  	224.0.0.252    	5355   	udp    	41990  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023643.912026      	Cia19225EL9Xhka1s5     	fe80::8c34:1742:e5a8:307e      	57308  	ff02::1:3      	5355   	udp    	45804  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023644.011819      	Cia19225EL9Xhka1s5     	fe80::8c34:1742:e5a8:307e      	57308  	ff02::1:3      	5355   	udp    	45804  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023643.912065      	CdYvtAQfupeTF5zDj      	64.137.168.19  	58384  	224.0.0.252    	5355   	udp    	45804  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023644.013273      	CdYvtAQfupeTF5zDj      	64.137.168.19  	58384  	224.0.0.252    	5355   	udp    	45804  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023648.954180      	CXP1pG4oTmbjVw4FMf     	fe80::8c34:1742:e5a8:307e      	64290  	ff02::1:3      	5355   	udp    	42194  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023649.058222      	CXP1pG4oTmbjVw4FMf     	fe80::8c34:1742:e5a8:307e      	64290  	ff02::1:3      	5355   	udp    	42194  	-      	bad_redirect   	1	C_INTERNET      	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023648.954218      	CEiDxMvv9fMcwBjV5      	64.137.168.19  	60949  	224.0.0.252    	5355   	udp    	42194  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023649.058257      	CEiDxMvv9fMcwBjV5      	64.137.168.19  	60949  	224.0.0.252    	5355   	udp    	42194  	-      	bad_redirect   	1      	C_INTERNET1A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023653.903316      	CJmks94718gyZYS1Xh     	fe80::d558:c4d9:588c:30e6      	61951  	ff02::1:3      	5355   	udp    	53613  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023654.312204      	CJmks94718gyZYS1Xh     	fe80::d558:c4d9:588c:30e6      	61951  	ff02::1:3      	5355   	udp    	53613  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023653.903338      	CkeBYu3dKL1FH2Djik     	64.137.168.148 	61951  	224.0.0.252    	5355   	udp    	53613  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023654.312246      	CkeBYu3dKL1FH2Djik     	64.137.168.148 	61951  	224.0.0.252    	5355   	udp    	53613  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023653.903342      	C9wY5p1PhKZsxL5yz3     	fe80::d558:c4d9:588c:30e6      	52191  	ff02::1:3      	5355   	udp    	56074  	-      	wpad   	1      	C_INTERNET	28     	AAAA   	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023654.312253      	C9wY5p1PhKZsxL5yz3     	fe80::d558:c4d9:588c:30e6      	52191  	ff02::1:3      	5355   	udp    	56074  	-      	wpad   	1      	C_INTERNET	28     	AAAA   	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023653.903748      	Co6nqQFaf3WXAWmOk      	64.137.168.148 	52191  	224.0.0.252    	5355   	udp    	56074  	-      	wpad   	1      	C_INTERNET     	28AAAA    	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023654.312257      	Co6nqQFaf3WXAWmOk      	64.137.168.148 	52191  	224.0.0.252    	5355   	udp    	56074  	-      	wpad   	1      	C_INTERNET     	28AAAA    	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023644.365275      	Cq6tmk38mCxnEL454      	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41378  	-      	OUTLOOK2046.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023645.115009      	Cq6tmk38mCxnEL454      	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41378  	-      	OUTLOOK2046.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023645.865140      	Cq6tmk38mCxnEL454      	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41378  	-      	OUTLOOK2046.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023626.010738      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49006  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023626.760277      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49006  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023627.510029      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49006  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023635.790992      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49007  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023636.541253      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49007  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023637.290952      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49007  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023649.257128      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49011  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023650.007187      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49011  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023650.757296      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49011  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023638.771037      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49008  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023639.538843      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49008  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023640.271127      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49008  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023640.544489      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49009  	-      	GO.FTBPRO.COM  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023641.263313      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49009  	-      	GO.FTBPRO.COM  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023642.013098      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49009  	-      	GO.FTBPRO.COM  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023644.213607      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49010  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023644.963337      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49010  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023645.714307      	CfKqF927Noixc0eSY6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49010  	-      	BAD_REDIRECT   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023653.903124      	CVwcH24iR06Z76Orjl     	64.137.168.148 	137    	64.137.168.255 	137    	udp    	53600  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023654.687231      	CVwcH24iR06Z76Orjl     	64.137.168.148 	137    	64.137.168.255 	137    	udp    	53600  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023655.468526      	CVwcH24iR06Z76Orjl     	64.137.168.148 	137    	64.137.168.255 	137    	udp    	53600  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023688.762432      	CruUYx3BwrHt8oMLEb     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41379  	-      	WWW.HRHOOPS.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023689.384574      	CruUYx3BwrHt8oMLEb     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41379  	-      	WWW.HRHOOPS.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023690.136284      	CruUYx3BwrHt8oMLEb     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41379  	-      	WWW.HRHOOPS.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023705.297169      	CFP34C3cviAxzz4cm4     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49012  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023706.046882      	CFP34C3cviAxzz4cm4     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49012  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023706.825948      	CFP34C3cviAxzz4cm4     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49012  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023718.963306      	CFP34C3cviAxzz4cm4     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49013  	-      	WMKEEPERI.RU   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023719.712141      	CFP34C3cviAxzz4cm4     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49013  	-      	WMKEEPERI.RU   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023720.462138      	CFP34C3cviAxzz4cm4     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49013  	-      	WMKEEPERI.RU   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023758.123344      	CfsSjZ1gbvpNWgOh48     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41380  	-      	Z11.CNZZ.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023758.872975      	CfsSjZ1gbvpNWgOh48     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41380  	-      	Z11.CNZZ.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023759.623508      	CfsSjZ1gbvpNWgOh48     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41380  	-      	Z11.CNZZ.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023867.829508      	CsORWo4kunNI0zW2Bl     	fe80::2104:48a5:2500:e661      	64816  	ff02::1:3      	5355   	udp    	43889  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023867.930289      	CsORWo4kunNI0zW2Bl     	fe80::2104:48a5:2500:e661      	64816  	ff02::1:3      	5355   	udp    	43889  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023867.829839      	C9rUtq36hG3fF14URk     	64.137.168.182 	50531  	224.0.0.252    	5355   	udp    	43889  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023867.930361      	C9rUtq36hG3fF14URk     	64.137.168.182 	50531  	224.0.0.252    	5355   	udp    	43889  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023868.134091      	CwP8Pu42mgmInNXl0h     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58566  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023868.898067      	CwP8Pu42mgmInNXl0h     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58566  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023869.662389      	CwP8Pu42mgmInNXl0h     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58566  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473023916.195093      	CKR6u52XZ7uqbNEB6g     	fe80::8c34:1742:e5a8:307e      	65392  	ff02::1:3      	5355   	udp    	42577  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473023916.195134      	CpKZWP2uvUo7jtPlMh     	64.137.168.19  	64426  	224.0.0.252    	5355   	udp    	42577  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024036.411209      	CT2frx33XWjyHHQqc6     	fe80::8c34:1742:e5a8:307e      	61660  	ff02::1:3      	5355   	udp    	26525  	-      	https  	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024036.511230      	CT2frx33XWjyHHQqc6     	fe80::8c34:1742:e5a8:307e      	61660  	ff02::1:3      	5355   	udp    	26525  	-      	https  	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024036.411279      	CcZf5V2rtz68VOge1k     	64.137.168.19  	57910  	224.0.0.252    	5355   	udp    	26525  	-      	https  	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024036.511289      	CcZf5V2rtz68VOge1k     	64.137.168.19  	57910  	224.0.0.252    	5355   	udp    	26525  	-      	https  	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024036.712417      	CDUnD11ZmgrRllCYhg     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49014  	-      	HTTPS  	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024037.466991      	CDUnD11ZmgrRllCYhg     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49014  	-      	HTTPS  	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024038.217150      	CDUnD11ZmgrRllCYhg     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49014  	-      	HTTPS  	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024067.507427      	CpJGXa2YBwUQ28sTP1     	fe80::21c8:aa30:c678:1697      	52774  	ff02::1:3      	5355   	udp    	23417  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024067.507489      	CiO2SO3ufVr9vNPNC1     	64.137.168.116 	64328  	224.0.0.252    	5355   	udp    	23417  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024078.862711      	CvRjI13uFtTvPXZAfh     	fe80::ac0a:a078:228f:840d      	54270  	ff02::1:3      	5355   	udp    	19398  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024079.355284      	CvRjI13uFtTvPXZAfh     	fe80::ac0a:a078:228f:840d      	54270  	ff02::1:3      	5355   	udp    	19398  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024078.862745      	CFxVvT2agdSJ0B745c     	64.137.168.193 	54270  	224.0.0.252    	5355   	udp    	19398  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024079.355306      	CFxVvT2agdSJ0B745c     	64.137.168.193 	54270  	224.0.0.252    	5355   	udp    	19398  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024078.862670      	C2QEON3LEJy9JbZoo5     	64.137.168.193 	137    	64.137.168.255 	137    	udp    	36113  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024079.642821      	C2QEON3LEJy9JbZoo5     	64.137.168.193 	137    	64.137.168.255 	137    	udp    	36113  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024080.392736      	C2QEON3LEJy9JbZoo5     	64.137.168.193 	137    	64.137.168.255 	137    	udp    	36113  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024080.171702      	CSU4gb4P0cyh8S1HEg     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49015  	-      	WWW.JTR.ORG.TR 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024080.926927      	CSU4gb4P0cyh8S1HEg     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49015  	-      	WWW.JTR.ORG.TR 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024081.691248      	CSU4gb4P0cyh8S1HEg     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49015  	-      	WWW.JTR.ORG.TR 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024097.449889      	CQVAzL3hWFXsITUaMb     	fe80::1dd:39b6:188d:90be       	58041  	ff02::1:3      	5355   	udp    	33384  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024097.449932      	CsIoCc4PluP08r7MJb     	64.137.168.14  	51246  	224.0.0.252    	5355   	udp    	33384  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024138.889279      	CNwhBQ2rIHvtnb9tY5     	fe80::4936:e111:1604:92d2      	57299  	ff02::1:3      	5355   	udp    	17253  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024138.889480      	CQGVSq3PzaKcH7gUzl     	64.137.168.65  	64080  	224.0.0.252    	5355   	udp    	17253  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024134.172180      	CVCZgv2rIUowRYR1Le     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49016  	-      	TAGS1.Z5X.NET  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024134.922115      	CVCZgv2rIUowRYR1Le     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49016  	-      	TAGS1.Z5X.NET  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024135.671892      	CVCZgv2rIUowRYR1Le     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49016  	-      	TAGS1.Z5X.NET  	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024177.380649      	CXrCxu3Ly070zuZmu3     	fe80::511:d348:ac27:ce64       	55772  	ff02::1:3      	5355   	udp    	36226  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024177.380744      	CFdo8l29ZObZbTCZGc     	64.137.168.69  	64244  	224.0.0.252    	5355   	udp    	36226  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024175.609298      	C77wE226RpTV00IiU2     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49017  	-      	WWW.BAJS.CN    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024176.358352      	C77wE226RpTV00IiU2     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49017  	-      	WWW.BAJS.CN    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024177.108273      	C77wE226RpTV00IiU2     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49017  	-      	WWW.BAJS.CN    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024202.099490      	CK9uyg1nEWs7XixYba     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49018  	-      	WWW.BAJS.CN    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024202.883553      	CK9uyg1nEWs7XixYba     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49018  	-      	WWW.BAJS.CN    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024203.626998      	CK9uyg1nEWs7XixYba     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49018  	-      	WWW.BAJS.CN    	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024241.100557      	CQGxXQ3j9EhCg1NBk7     	fe80::2104:48a5:2500:e661      	65248  	ff02::1:3      	5355   	udp    	49599  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024241.100650      	C6QWfo3fzWlnYiHxth     	64.137.168.182 	53697  	224.0.0.252    	5355   	udp    	49599  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024238.800779      	CBalLI2sjc27WRtou2     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41381  	-      	WWW.HDMAGIA.RO 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024239.550042      	CBalLI2sjc27WRtou2     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41381  	-      	WWW.HDMAGIA.RO 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024240.300025      	CBalLI2sjc27WRtou2     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41381  	-      	WWW.HDMAGIA.RO 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024261.489351      	CAoUovmoCgz5Qeaj6      	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41382  	-      	WWW.HDMAGIA.RO 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024262.233874      	CAoUovmoCgz5Qeaj6      	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41382  	-      	WWW.HDMAGIA.RO 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024263.110030      	CAoUovmoCgz5Qeaj6      	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41382  	-      	WWW.HDMAGIA.RO 	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024285.802019      	C92L5m3yU5eHZVMqP3     	fe80::1532:b4ac:17e7:7445      	58118  	ff02::1:3      	5355   	udp    	32867  	-      	win-fo3og88r8d7	1	C_INTERNET      	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024285.802774      	C9Pedl4kxwbfpIWmw2     	64.137.168.62  	58118  	224.0.0.252    	5355   	udp    	32867  	-      	win-fo3og88r8d7	1      	C_INTERNET255     	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024288.406063      	CotOAB18PM1M6uf2qh     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49020  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024289.187986      	CotOAB18PM1M6uf2qh     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49020  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024289.905812      	CotOAB18PM1M6uf2qh     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49020  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024268.682945      	CotOAB18PM1M6uf2qh     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49019  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024269.432288      	CotOAB18PM1M6uf2qh     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49019  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024270.182326      	CotOAB18PM1M6uf2qh     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49019  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024362.230013      	Cpw5OxhA0iCUCcEBf      	fe80::9cc3:3806:1153:59f3      	56284  	ff02::1:3      	5355   	udp    	10476  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024362.230089      	Cu1LUv3KvWM5Ga9k02     	64.137.168.68  	50649  	224.0.0.252    	5355   	udp    	10476  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024470.447169      	CflLkz1qY8PVHL3DS3     	fe80::2104:48a5:2500:e661      	50936  	ff02::1:3      	5355   	udp    	32078  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024470.544262      	CflLkz1qY8PVHL3DS3     	fe80::2104:48a5:2500:e661      	50936  	ff02::1:3      	5355   	udp    	32078  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024470.447235      	CcxwUTSCI0swvcji1      	64.137.168.182 	62957  	224.0.0.252    	5355   	udp    	32078  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024470.544328      	CcxwUTSCI0swvcji1      	64.137.168.182 	62957  	224.0.0.252    	5355   	udp    	32078  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024470.844216      	CiEyZx4EWBtUdokTwa     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58567  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024471.512126      	CiEyZx4EWBtUdokTwa     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58567  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024472.276470      	CiEyZx4EWBtUdokTwa     	64.137.168.182 	137    	64.137.168.255 	137    	udp    	58567  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024504.498016      	CIeeXY1aRloer2DdC9     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49021  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024505.247735      	CIeeXY1aRloer2DdC9     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49021  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024505.997900      	CIeeXY1aRloer2DdC9     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49021  	-      	ADK2X.COM      	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024522.847570      	CleNTn1VsZi0c8BnW3     	fe80::855b:7119:2700:5c63      	50097  	ff02::1:3      	5355   	udp    	47016  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024523.264473      	CleNTn1VsZi0c8BnW3     	fe80::855b:7119:2700:5c63      	50097  	ff02::1:3      	5355   	udp    	47016  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024522.847627      	CrcnWg1nEdFmoxHeSl     	64.137.168.72  	50097  	224.0.0.252    	5355   	udp    	47016  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024523.264564      	CrcnWg1nEdFmoxHeSl     	64.137.168.72  	50097  	224.0.0.252    	5355   	udp    	47016  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024522.851987      	CShvkaGbQrOy6WHB3      	fe80::855b:7119:2700:5c63      	53937  	ff02::1:3      	5355   	udp    	46741  	-      	win-fo3og88r8d7	1	C_INTERNET      	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024522.852693      	CveHdY1nxGFwBNtLri     	64.137.168.72  	53937  	224.0.0.252    	5355   	udp    	46741  	-      	win-fo3og88r8d7	1      	C_INTERNET255     	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024488.349290      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41388  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024489.098773      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41388  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024489.913406      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41388  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024486.095835      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41387  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024486.883464      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41387  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024487.595744      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41387  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024492.912432      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41390  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024493.602392      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41390  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024494.352382      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41390  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024504.328814      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41391  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024505.081613      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41391  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024505.828969      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41391  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024483.885017      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41386  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024484.535251      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41386  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024485.285406      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41386  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024476.517602      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41383  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024477.267639      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41383  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024478.021472      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41383  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024481.177561      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41385  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024481.964415      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41385  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024482.685353      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41385  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024513.767895      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41395  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024514.516710      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41395  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024515.266751      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41395  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024509.221781      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41393  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024510.008376      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41393  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024510.733648      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41393  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024506.710067      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41392  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024507.463092      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41392  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024508.209973      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41392  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024511.497285      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41394  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024512.252718      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41394  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024513.010381      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41394  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024516.186539      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41396  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024517.001330      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41396  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024517.686236      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41396  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024490.601665      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41389  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024491.350928      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41389  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024492.100907      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41389  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024518.437590      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41397  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024519.186954      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41397  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024520.011650      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41397  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024478.861744      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41384  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024479.566860      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41384  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024480.317157      	C96ZB43Ya0Ry5CfLe7     	64.137.168.93  	137    	64.137.168.255 	137    	udp    	41384  	-      	WWW.EXCROID.COM	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024522.847475      	C3hcRr9rDpNHCgHgc      	64.137.168.72  	137    	64.137.168.255 	137    	udp    	63657  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024523.624519      	C3hcRr9rDpNHCgHgc      	64.137.168.72  	137    	64.137.168.255 	137    	udp    	63657  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024524.390169      	C3hcRr9rDpNHCgHgc      	64.137.168.72  	137    	64.137.168.255 	137    	udp    	63657  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024540.141964      	CChkwO2CC25S2iAcN8     	fe80::5181:1a1b:ff45:9f5a      	64557  	ff02::1:3      	5355   	udp    	18361  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024540.141996      	CxkM1xKXMm4IDZbbi      	64.137.168.93  	63225  	224.0.0.252    	5355   	udp    	18361  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024684.625332      	C8dtyJKvhyh8cKxDl      	fe80::d558:c4d9:588c:30e6      	62268  	ff02::1:3      	5355   	udp    	20816  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024685.035054      	C8dtyJKvhyh8cKxDl      	fe80::d558:c4d9:588c:30e6      	62268  	ff02::1:3      	5355   	udp    	20816  	-      	isatap 	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024684.625463      	CjFc4S1FRppdshWBP2     	64.137.168.148 	62268  	224.0.0.252    	5355   	udp    	20816  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024685.035095      	CjFc4S1FRppdshWBP2     	64.137.168.148 	62268  	224.0.0.252    	5355   	udp    	20816  	-      	isatap 	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024684.625214      	CJXZTg3OyTZPAb1lDd     	64.137.168.148 	137    	64.137.168.255 	137    	udp    	53603  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024685.425490      	CJXZTg3OyTZPAb1lDd     	64.137.168.148 	137    	64.137.168.255 	137    	udp    	53603  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024686.191372      	CJXZTg3OyTZPAb1lDd     	64.137.168.148 	137    	64.137.168.255 	137    	udp    	53603  	-      	ISATAP 	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024711.884309      	Cstnz03LeyyfkS3w45     	64.137.168.132 	49334  	8.8.8.8	53     	udp    	6032   	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473024715.258169      	CXOdNf1Fe8zO6EdfId     	64.137.168.132 	52929  	8.8.8.8	53     	udp    	61014  	-      	-      	-      	-      	-      	-      	3	NXDOMAIN	F      	F      	F      	F      	0      	-      	-      	F
-1473024768.178220      	CTchts3kl0gGNKCWFe     	64.137.168.132 	44858  	8.8.8.8	53     	udp    	20302  	-      	13.254.21.129.in-addr.arpa     	-      	-	--      	0      	NOERROR	F      	F      	F      	T      	0      	bitstorm.rh.rit.edu    	899.000000     	F
-1473024768.244109      	CyX0SR3PlJY2Ddjn8k     	64.137.168.132 	60413  	8.8.8.8	53     	udp    	47770  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	899.000000     	F
-1473024769.034789      	CX3nvp2hmkC5yMJfCl     	64.137.168.132 	36982  	8.8.8.8	53     	udp    	1551   	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.034354      	CX3nvp2hmkC5yMJfCl     	64.137.168.132 	36982  	8.8.8.8	53     	udp    	47161  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	787.000000     	F
-1473024769.083794      	CbC45T3tr68I62VFq6     	64.137.168.132 	44713  	8.8.8.8	53     	udp    	18664  	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.084419      	CbC45T3tr68I62VFq6     	64.137.168.132 	44713  	8.8.8.8	53     	udp    	58349  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	899.000000     	F
-1473024769.131085      	CM9J9W3bMz7yQhORuc     	64.137.168.132 	55761  	8.8.8.8	53     	udp    	18677  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	899.000000     	F
-1473024769.118324      	CM9J9W3bMz7yQhORuc     	64.137.168.132 	55761  	8.8.8.8	53     	udp    	27674  	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.263093      	CVsnM61OcMMZyY0Y62     	64.137.168.132 	50241  	8.8.8.8	53     	udp    	35368  	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.263127      	CVsnM61OcMMZyY0Y62     	64.137.168.132 	50241  	8.8.8.8	53     	udp    	62347  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	899.000000     	F
-1473024769.310029      	CygR7s4Fml0RHomZ52     	64.137.168.132 	41552  	8.8.8.8	53     	udp    	12107  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	787.000000     	F
-1473024769.310057      	CygR7s4Fml0RHomZ52     	64.137.168.132 	41552  	8.8.8.8	53     	udp    	14488  	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.318549      	C9v5VozzKFy51TlU1      	64.137.168.132 	56511  	8.8.8.8	53     	udp    	21132  	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.318506      	C9v5VozzKFy51TlU1      	64.137.168.132 	56511  	8.8.8.8	53     	udp    	51708  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	787.000000     	F
-1473024769.375898      	CqGUdvT8mcZW7ASEg      	64.137.168.132 	46825  	8.8.8.8	53     	udp    	51721  	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024769.375944      	CqGUdvT8mcZW7ASEg      	64.137.168.132 	46825  	8.8.8.8	53     	udp    	61884  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	899.000000     	F
-1473024769.382012      	COzkqL3j8CMmVsUAJ9     	64.137.168.132 	54848  	8.8.8.8	53     	udp    	51915  	-      	bitstorm.rh.rit.edu    	-      	-      	-	-0      	NOERROR	F      	F      	F      	T      	0      	129.21.254.13  	899.000000     	F
-1473024769.382036      	COzkqL3j8CMmVsUAJ9     	64.137.168.132 	54848  	8.8.8.8	53     	udp    	4773   	-      	-      	-      	-      	-      	-      	0	NOERROR 	F      	F      	F      	F      	0      	-      	-      	F
-1473024781.053191      	CYrRjK165d6Uj8uhZ9     	fe80::1d3:a310:f535:c3ae       	57587  	ff02::1:3      	5355   	udp    	10350  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024781.152411      	CYrRjK165d6Uj8uhZ9     	fe80::1d3:a310:f535:c3ae       	57587  	ff02::1:3      	5355   	udp    	10350  	-      	wpad   	1      	C_INTERNET	1      	A      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024781.053298      	CEwpQ73jhRkD0jKxhd     	64.137.168.192 	53997  	224.0.0.252    	5355   	udp    	10350  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024781.152443      	CEwpQ73jhRkD0jKxhd     	64.137.168.192 	53997  	224.0.0.252    	5355   	udp    	10350  	-      	wpad   	1      	C_INTERNET     	1	A-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024781.353749      	CJS38v3pVee7IyHZJ7     	64.137.168.192 	137    	64.137.168.255 	137    	udp    	37905  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024782.104315      	CJS38v3pVee7IyHZJ7     	64.137.168.192 	137    	64.137.168.255 	137    	udp    	37905  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024782.868440      	CJS38v3pVee7IyHZJ7     	64.137.168.192 	137    	64.137.168.255 	137    	udp    	37905  	-      	WPAD   	1      	C_INTERNET     	32NB      	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024797.899015      	C6XMxCbQNofVhlPAa      	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49022  	-      	WWW.WXJU.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024798.639541      	C6XMxCbQNofVhlPAa      	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49022  	-      	WWW.WXJU.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024799.396961      	C6XMxCbQNofVhlPAa      	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49022  	-      	WWW.WXJU.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024816.445193      	CjXfGm4ma1p4iVGKY7     	fe80::8c34:1742:e5a8:307e      	58773  	ff02::1:3      	5355   	udp    	43764  	-      	desktop	1      	C_INTERNET	255    	*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024816.445222      	CuEPIc2j0ByXop0XEl     	64.137.168.19  	51034  	224.0.0.252    	5355   	udp    	43764  	-      	desktop	1      	C_INTERNET     	255*      	-      	-      	F      	F      	F      	F      	0      	-      	-      	F
-1473024819.414491      	CxVF7n3lkkuFbX6yA6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49023  	-      	WWW.WXJU.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024820.156145      	CxVF7n3lkkuFbX6yA6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49023  	-      	WWW.WXJU.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
-1473024820.905991      	CxVF7n3lkkuFbX6yA6     	64.137.168.19  	137    	64.137.168.255 	137    	udp    	49023  	-      	WWW.WXJU.COM   	1      	C_INTERNET32      	NB     	-      	-      	F      	F      	T      	F      	1      	-      	-      	F
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2016-09-05-13-00-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1473094791.768752	CabPMj4jBmjrvO7Gd9	fe80::4ccb:78ab:fb1b:d26b	65041	ff02::1:3	5355	udp	55419	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094792.189080	CabPMj4jBmjrvO7Gd9	fe80::4ccb:78ab:fb1b:d26b	65041	ff02::1:3	5355	udp	55419	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094791.768877	CfCzRO1ifju9yKcDtl	64.137.168.164	65041	224.0.0.252	5355	udp	55419	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094792.189142	CfCzRO1ifju9yKcDtl	64.137.168.164	65041	224.0.0.252	5355	udp	55419	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094752.370780	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41989	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094753.120776	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41989	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094753.926467	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41989	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094759.218864	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41992	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094759.969764	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41992	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094760.720197	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41992	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094787.050888	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42001	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094787.799554	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42001	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094788.549752	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42001	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094763.725625	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41994	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094764.476088	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41994	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094765.226190	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41994	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094761.471805	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41993	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094762.221573	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41993	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094762.974130	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41993	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094765.979382	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41995	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094766.729827	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41995	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094767.480549	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41995	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094768.237448	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41996	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094768.991850	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41996	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094769.738722	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41996	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094754.631821	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41990	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094755.381541	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41990	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094756.131865	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41990	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094756.958903	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41991	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094757.716804	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41991	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094758.467603	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41991	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094782.427425	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41999	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094783.146334	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41999	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094783.901729	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41999	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094791.561512	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42003	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094792.324570	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42003	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094793.075280	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42003	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094777.880084	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41997	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094778.629509	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41997	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094779.424829	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41997	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094780.136752	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41998	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094780.886142	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41998	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094781.636620	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	41998	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094784.652933	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42000	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094785.440888	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42000	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094786.179101	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42000	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094789.301030	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42002	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094790.050944	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42002	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094790.800856	CsSAt51YOmh4lcRhBl	64.137.168.93	137	64.137.168.255	137	udp	42002	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094800.505131	COhFhv1DnHy78qBM98	64.137.168.132	34617	8.8.8.8	53	udp	54734	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.527066	Ciq3yZ36VKrrbHwWg4	64.137.168.132	43011	8.8.8.8	53	udp	42686	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.620305	CByNFeeaxsAs56o4	64.137.168.132	48102	8.8.8.8	53	udp	34549	-	148.168.137.64.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	c999944721-cloudpro-313038584.cloudatcost.com	299.000000	F
+1473094800.710148	CrWaBk4FTaBnZezLSh	64.137.168.132	48178	8.8.8.8	53	udp	36877	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.775201	CvQdY748bENXxAu9uj	64.137.168.132	56801	8.8.8.8	53	udp	17509	-	132.168.137.64.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	c999951173-cloudpro-274471617.cloudatcost.com	299.000000	F
+1473094800.808809	CFy78n3FrNt0bzO8Tj	64.137.168.132	50941	8.8.8.8	53	udp	17874	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.843577	CX8l4w4q72hIgqB9Xf	64.137.168.132	37611	8.8.8.8	53	udp	46846	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.853606	C0tanQ3mZW3jmEJn5	64.137.168.132	58401	8.8.8.8	53	udp	47113	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.915284	C7FheX1ud1PL52Agck	64.137.168.132	48486	8.8.8.8	53	udp	61931	-	8.168.137.64.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	dl.matthewbankhead.com	299.000000	F
+1473094800.924622	Cbvtx61kfKDTDrtIA3	64.137.168.132	33717	8.8.8.8	53	udp	48782	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.960574	CZBzyn1dcfCVlzpgD	64.137.168.132	55575	8.8.8.8	53	udp	11046	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094800.998330	CR4Vwr1Mtp3bh1B9Vk	64.137.168.132	40569	8.8.8.8	53	udp	30594	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094801.008421	CFM7Br31E6YeQVQMde	64.137.168.132	58127	8.8.8.8	53	udp	10624	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094801.042670	CEi0Do2QR69MXnuWde	64.137.168.132	43131	8.8.8.8	53	udp	25610	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094801.053413	C1lJML1nnkC8wZiHk4	64.137.168.132	50931	8.8.8.8	53	udp	13837	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094801.087240	C06dulbrbjZCqBpsk	64.137.168.132	38830	8.8.8.8	53	udp	50321	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094801.125325	C6sxvh35TuLs3Pfcj	64.137.168.132	37933	8.8.8.8	53	udp	56516	-	8.8.8.8.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	google-public-dns-a.google.com	21599.000000	F
+1473094801.158915	Cn9NMhABKiu4LcPxd	64.137.168.132	60882	8.8.8.8	53	udp	56837	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094801.194834	CIIYwe2F26dt5yyHj5	64.137.168.132	38010	8.8.8.8	53	udp	43565	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473094791.768534	CK5oPR3t9TyfPj8gf2	64.137.168.164	137	64.137.168.255	137	udp	56911	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094792.533235	CK5oPR3t9TyfPj8gf2	64.137.168.164	137	64.137.168.255	137	udp	56911	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094793.283543	CK5oPR3t9TyfPj8gf2	64.137.168.164	137	64.137.168.255	137	udp	56911	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094929.517301	CT33NDjVuzhN2nFih	64.137.168.19	137	64.137.168.255	137	udp	49739	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094930.266847	CT33NDjVuzhN2nFih	64.137.168.19	137	64.137.168.255	137	udp	49739	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094931.030221	CT33NDjVuzhN2nFih	64.137.168.19	137	64.137.168.255	137	udp	49739	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094976.464584	CYFaTc3WtVp2OSBa75	fe80::2104:48a5:2500:e661	62182	ff02::1:3	5355	udp	28631	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094976.564307	CYFaTc3WtVp2OSBa75	fe80::2104:48a5:2500:e661	62182	ff02::1:3	5355	udp	28631	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094976.464674	CKgyRpx0dHP1p36Pe	64.137.168.182	57163	224.0.0.252	5355	udp	28631	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094976.564336	CKgyRpx0dHP1p36Pe	64.137.168.182	57163	224.0.0.252	5355	udp	28631	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473094976.768094	Cp9a2w4Bzwon99zJw7	64.137.168.182	137	64.137.168.255	137	udp	58691	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094977.531592	Cp9a2w4Bzwon99zJw7	64.137.168.182	137	64.137.168.255	137	udp	58691	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473094978.296624	Cp9a2w4Bzwon99zJw7	64.137.168.182	137	64.137.168.255	137	udp	58691	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095016.594033	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49740	-	YUDIQ.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095017.343699	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49740	-	YUDIQ.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095018.093748	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49740	-	YUDIQ.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095030.577219	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49742	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095031.327048	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49742	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095032.076871	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49742	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095025.468722	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49741	-	YUDIQ.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095026.217430	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49741	-	YUDIQ.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095026.967679	CTql6T28jmC3jCqYD1	64.137.168.19	137	64.137.168.255	137	udp	49741	-	YUDIQ.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095041.610526	CIT4dC3MFqA7go5934	64.137.168.132	57194	8.8.8.8	53	udp	32706	-	-	-	-	-	-	3	NXDOMAIN	F	F	F	F	0	-	-	F
+1473095043.907975	Cguizp2Ceu2I1YmBHh	fe80::8c34:1742:e5a8:307e	50872	ff02::1:3	5355	udp	44592	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095043.908058	C8pCGe9NrkrIMHLNi	64.137.168.19	51281	224.0.0.252	5355	udp	44592	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095089.377203	CSYYvQ3D4UdKt0EmJj	fe80::1532:b4ac:17e7:7445	60678	ff02::1:3	5355	udp	39777	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095089.378051	CgnaoN30EgoQzEUB1j	64.137.168.62	60678	224.0.0.252	5355	udp	39777	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095171.742837	C8dJ5WvYSsxgWq1Fc	fe80::21c8:aa30:c678:1697	64755	ff02::1:3	5355	udp	1544	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095171.742891	CHrmIQ2z1Moa6fcrt6	64.137.168.116	61698	224.0.0.252	5355	udp	1544	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095198.382036	Cwgg5sdcYEmZEyfL4	fe80::1dd:39b6:188d:90be	59808	ff02::1:3	5355	udp	43807	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095198.382076	C3hDcY1vFcye8sMLog	64.137.168.14	58682	224.0.0.252	5355	udp	43807	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095207.817256	CtYApH2a9x5vNsL8Kd	64.137.168.19	137	64.137.168.255	137	udp	49743	-	PB.ADHOUYI.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095208.567383	CtYApH2a9x5vNsL8Kd	64.137.168.19	137	64.137.168.255	137	udp	49743	-	PB.ADHOUYI.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095209.318324	CtYApH2a9x5vNsL8Kd	64.137.168.19	137	64.137.168.255	137	udp	49743	-	PB.ADHOUYI.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095233.333779	CY7HVF12GFTxm0iyma	fe80::250:56ff:fe95:77b7	5353	ff02::fb	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1473095233.333870	CxFk4v4N6kGR1Jw4s9	64.137.168.114	5353	224.0.0.251	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1473095241.536540	Cyejr62qmwgB7jJmPl	fe80::4936:e111:1604:92d2	59921	ff02::1:3	5355	udp	38271	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095241.536571	CgBYhU3wsbSE7zMA51	64.137.168.65	64058	224.0.0.252	5355	udp	38271	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095251.574384	CriEvgzz3qu0S4Wea	64.137.168.132	54704	8.8.8.8	53	udp	32925	-	98.160.103.177.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	dns2.transmimo.com.br	18277.000000	F
+1473095251.603826	CIEia9C4a8OD2l532	64.137.168.132	45297	8.8.8.8	53	udp	44397	-	dns2.transmimo.com.br	-	-	-	-	0	NOERROR	F	F	F	T	0	177.103.160.98	72.000000	F
+1473095251.617759	CRYwC04DQMSVrVndTe	64.137.168.132	53081	8.8.8.8	53	udp	36711	-	dns2.transmimo.com.br	-	-	-	-	0	NOERROR	F	F	F	T	0	177.103.160.98	274.000000	F
+1473095251.617795	CRYwC04DQMSVrVndTe	64.137.168.132	53081	8.8.8.8	53	udp	57722	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473095253.345247	CbP8Wl1JqUC9VHNGvc	64.137.168.132	58020	8.8.8.8	53	udp	48086	-	dns2.transmimo.com.br	-	-	-	-	0	NOERROR	F	F	F	T	0	177.103.160.98	238.000000	F
+1473095253.345346	CbP8Wl1JqUC9VHNGvc	64.137.168.132	58020	8.8.8.8	53	udp	3412	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473095256.014723	CU40cZ3P5kw8sDvJ67	64.137.168.132	40511	8.8.8.8	53	udp	41886	-	dns2.transmimo.com.br	-	-	-	-	0	NOERROR	F	F	F	T	0	177.103.160.98	68.000000	F
+1473095256.014788	CU40cZ3P5kw8sDvJ67	64.137.168.132	40511	8.8.8.8	53	udp	16660	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473095282.412694	CRpvDu3ZS9O77qglvc	fe80::511:d348:ac27:ce64	50744	ff02::1:3	5355	udp	14714	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095282.412887	CFLnau3vpeYKadH0Y8	64.137.168.69	49950	224.0.0.252	5355	udp	14714	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095325.970683	C5DNqc1gUOBQah6oe	64.137.168.19	137	64.137.168.255	137	udp	49744	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095326.720092	C5DNqc1gUOBQah6oe	64.137.168.19	137	64.137.168.255	137	udp	49744	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095327.469870	C5DNqc1gUOBQah6oe	64.137.168.19	137	64.137.168.255	137	udp	49744	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095342.152431	C3AFqv38O0cJLt9DPd	fe80::2104:48a5:2500:e661	56156	ff02::1:3	5355	udp	8503	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095342.152504	CTpi564jODGkGGG1Mj	64.137.168.182	60206	224.0.0.252	5355	udp	8503	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095427.528691	C9ADKU3c8EvR8Cnqmh	64.137.168.93	137	64.137.168.255	137	udp	42004	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095428.278478	C9ADKU3c8EvR8Cnqmh	64.137.168.93	137	64.137.168.255	137	udp	42004	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095429.028628	C9ADKU3c8EvR8Cnqmh	64.137.168.93	137	64.137.168.255	137	udp	42004	-	ADK2X.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095466.109452	CgtK8F9vzl3eDVuOg	fe80::9cc3:3806:1153:59f3	51987	ff02::1:3	5355	udp	61650	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095466.109522	Cj09p24qKCOYJwVmq6	64.137.168.68	64649	224.0.0.252	5355	udp	61650	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095579.085450	CZbIeh2IaNLl6WA7Z9	fe80::2104:48a5:2500:e661	54871	ff02::1:3	5355	udp	47542	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095579.193876	CZbIeh2IaNLl6WA7Z9	fe80::2104:48a5:2500:e661	54871	ff02::1:3	5355	udp	47542	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095579.085520	CZTKh74YUmjVCDRTM9	64.137.168.182	64594	224.0.0.252	5355	udp	47542	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095579.193903	CZTKh74YUmjVCDRTM9	64.137.168.182	64594	224.0.0.252	5355	udp	47542	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095579.397919	CL2KM02n64loe5Ee13	64.137.168.182	137	64.137.168.255	137	udp	58692	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095580.161339	CL2KM02n64loe5Ee13	64.137.168.182	137	64.137.168.255	137	udp	58692	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095580.925963	CL2KM02n64loe5Ee13	64.137.168.182	137	64.137.168.255	137	udp	58692	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095669.118330	CS4V3p1Uz9KhD9mwzj	fe80::5181:1a1b:ff45:9f5a	56802	ff02::1:3	5355	udp	59884	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095669.118385	CJ2rVv4mGSPp6GrSb	64.137.168.93	60209	224.0.0.252	5355	udp	59884	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095677.103842	CjA6rv4S6FZEPyPeH9	fe80::d558:c4d9:588c:30e6	55153	ff02::1:3	5355	udp	11605	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095677.505864	CjA6rv4S6FZEPyPeH9	fe80::d558:c4d9:588c:30e6	55153	ff02::1:3	5355	udp	11605	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095677.103860	CZRowV1R0Sv1bp7DG	64.137.168.148	55153	224.0.0.252	5355	udp	11605	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095677.505890	CZRowV1R0Sv1bp7DG	64.137.168.148	55153	224.0.0.252	5355	udp	11605	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473095677.103918	CfPHM04RuH1aLvwLp2	fe80::d558:c4d9:588c:30e6	50652	ff02::1:3	5355	udp	48936	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473095677.505896	CfPHM04RuH1aLvwLp2	fe80::d558:c4d9:588c:30e6	50652	ff02::1:3	5355	udp	48936	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473095677.104032	Cv10F81YcQoWf3ssPd	64.137.168.148	50652	224.0.0.252	5355	udp	48936	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473095677.505973	Cv10F81YcQoWf3ssPd	64.137.168.148	50652	224.0.0.252	5355	udp	48936	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473095677.103613	CdbgbO1sXH0oJmUobe	64.137.168.148	137	64.137.168.255	137	udp	53657	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095677.881041	CdbgbO1sXH0oJmUobe	64.137.168.148	137	64.137.168.255	137	udp	53657	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095678.646626	CdbgbO1sXH0oJmUobe	64.137.168.148	137	64.137.168.255	137	udp	53657	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095796.226330	Cmbm9q1kxfarL4faIj	64.137.168.19	137	64.137.168.255	137	udp	49746	-	CFS.U-AD.INFO	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095796.975754	Cmbm9q1kxfarL4faIj	64.137.168.19	137	64.137.168.255	137	udp	49746	-	CFS.U-AD.INFO	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095797.726011	Cmbm9q1kxfarL4faIj	64.137.168.19	137	64.137.168.255	137	udp	49746	-	CFS.U-AD.INFO	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095784.262788	Cmbm9q1kxfarL4faIj	64.137.168.19	137	64.137.168.255	137	udp	49745	-	CFS.U-AD.INFO	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095785.012809	Cmbm9q1kxfarL4faIj	64.137.168.19	137	64.137.168.255	137	udp	49745	-	CFS.U-AD.INFO	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095785.763396	Cmbm9q1kxfarL4faIj	64.137.168.19	137	64.137.168.255	137	udp	49745	-	CFS.U-AD.INFO	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473095944.246942	CTXnRihvD9gsuGm6d	fe80::8c34:1742:e5a8:307e	55281	ff02::1:3	5355	udp	4571	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473095944.247111	Cd0SgY1d8bqfY8p41b	64.137.168.19	57374	224.0.0.252	5355	udp	4571	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096071.793988	CJQI7k2RpwWcoQ8A59	fe80::21c8:aa30:c678:1697	62064	ff02::1:3	5355	udp	9313	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096071.794049	CluoAz1aM72j384pW6	64.137.168.116	65526	224.0.0.252	5355	udp	9313	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096081.290591	CKDwOUBA243QQIC9	fe80::ac0a:a078:228f:840d	65081	ff02::1:3	5355	udp	7572	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096081.711024	CKDwOUBA243QQIC9	fe80::ac0a:a078:228f:840d	65081	ff02::1:3	5355	udp	7572	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096081.290606	C2G4y7maKSx0Qjusc	64.137.168.193	65081	224.0.0.252	5355	udp	7572	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096081.711049	C2G4y7maKSx0Qjusc	64.137.168.193	65081	224.0.0.252	5355	udp	7572	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096081.290465	C5flsk368WhMSF3nu9	64.137.168.193	137	64.137.168.255	137	udp	36240	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096082.054977	C5flsk368WhMSF3nu9	64.137.168.193	137	64.137.168.255	137	udp	36240	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096082.804934	C5flsk368WhMSF3nu9	64.137.168.193	137	64.137.168.255	137	udp	36240	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096098.401045	CSD9la1bIMp1cqu2h3	fe80::1dd:39b6:188d:90be	55615	ff02::1:3	5355	udp	14127	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096098.401086	CEObwL3iqzQHidMKCj	64.137.168.14	65352	224.0.0.252	5355	udp	14127	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096141.567789	C74qG92V5cakbtj2al	fe80::4936:e111:1604:92d2	53178	ff02::1:3	5355	udp	60358	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096141.567833	C6owPh2xcZUQHzKjwc	64.137.168.65	56467	224.0.0.252	5355	udp	60358	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096181.706441	CuVVMk3Ghu0ATnDvVd	fe80::2104:48a5:2500:e661	54787	ff02::1:3	5355	udp	22248	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096181.807881	CuVVMk3Ghu0ATnDvVd	fe80::2104:48a5:2500:e661	54787	ff02::1:3	5355	udp	22248	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096181.706470	CrHHBjjAR5sLiUf8h	64.137.168.182	58308	224.0.0.252	5355	udp	22248	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096181.807911	CrHHBjjAR5sLiUf8h	64.137.168.182	58308	224.0.0.252	5355	udp	22248	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096182.461526	CwpBonYL4fcgxmFE3	fe80::511:d348:ac27:ce64	63891	ff02::1:3	5355	udp	17855	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096182.461572	CkGvEe1XSIrfj5Opw5	64.137.168.69	57050	224.0.0.252	5355	udp	17855	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096182.011910	C1bEhd28TrJf7yvZy5	64.137.168.182	137	64.137.168.255	137	udp	58693	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096182.775644	C1bEhd28TrJf7yvZy5	64.137.168.182	137	64.137.168.255	137	udp	58693	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096183.540025	C1bEhd28TrJf7yvZy5	64.137.168.182	137	64.137.168.255	137	udp	58693	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096214.374853	CaYKpt4iUBG1crtZp4	64.95.101.20	55496	64.137.168.132	137	udp	58840	-	*\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00	1	C_INTERNET	33	NBSTAT	-	-	F	F	F	F	0	-	-	F
+1473096242.165749	CkhzNI25hhNuutO4j	fe80::2104:48a5:2500:e661	60767	ff02::1:3	5355	udp	15253	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096242.165803	C3YxWynjwYQ1Vrkc8	64.137.168.182	63702	224.0.0.252	5355	udp	15253	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096289.478707	CpCqsa1am3EpNzx7G	fe80::1532:b4ac:17e7:7445	59341	ff02::1:3	5355	udp	11605	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096289.479544	CWbwRN15puwuHMIcr9	64.137.168.62	59341	224.0.0.252	5355	udp	11605	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096366.156964	CWFCeu2Ohb0J4aqw35	fe80::9cc3:3806:1153:59f3	49989	ff02::1:3	5355	udp	676	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096366.157030	CTcVhf2O9aWMeNKUG1	64.137.168.68	60565	224.0.0.252	5355	udp	676	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096453.957274	CckUGX1tE8Vba2XKci	fe80::d117:de98:5314:99df	58661	ff02::1:3	5355	udp	54541	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096454.374816	CckUGX1tE8Vba2XKci	fe80::d117:de98:5314:99df	58661	ff02::1:3	5355	udp	54541	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096453.957291	ChumJE2CJZ2NDH69Ej	64.137.168.44	58661	224.0.0.252	5355	udp	54541	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096454.374847	ChumJE2CJZ2NDH69Ej	64.137.168.44	58661	224.0.0.252	5355	udp	54541	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096453.957466	CHyPOI2To1sFSR37Ud	fe80::d117:de98:5314:99df	54797	ff02::1:3	5355	udp	35966	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096454.375002	CHyPOI2To1sFSR37Ud	fe80::d117:de98:5314:99df	54797	ff02::1:3	5355	udp	35966	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096453.957476	CGjLZW3EFawcksI5a3	64.137.168.44	54797	224.0.0.252	5355	udp	35966	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096454.375019	CGjLZW3EFawcksI5a3	64.137.168.44	54797	224.0.0.252	5355	udp	35966	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096453.960899	C0P6pT1M15kst8EHHi	fe80::d117:de98:5314:99df	57736	ff02::1:3	5355	udp	5315	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096453.960951	CE1WdF1YY0NT93Cla4	64.137.168.44	57736	224.0.0.252	5355	udp	5315	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096453.957102	CkZuAR12Sg7KGs4hbc	64.137.168.44	137	64.137.168.255	137	udp	48074	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096454.702980	CkZuAR12Sg7KGs4hbc	64.137.168.44	137	64.137.168.255	137	udp	48074	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096455.468508	CkZuAR12Sg7KGs4hbc	64.137.168.44	137	64.137.168.255	137	udp	48074	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096453.957360	CkZuAR12Sg7KGs4hbc	64.137.168.44	137	64.137.168.255	137	udp	48075	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096454.749944	CkZuAR12Sg7KGs4hbc	64.137.168.44	137	64.137.168.255	137	udp	48075	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096455.515737	CkZuAR12Sg7KGs4hbc	64.137.168.44	137	64.137.168.255	137	udp	48075	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096522.908628	CzoTXySRRDX1fcAN7	fe80::855b:7119:2700:5c63	53195	ff02::1:3	5355	udp	49810	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096523.325945	CzoTXySRRDX1fcAN7	fe80::855b:7119:2700:5c63	53195	ff02::1:3	5355	udp	49810	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096522.908654	CiBPyc1m8aPooHhgD6	64.137.168.72	53195	224.0.0.252	5355	udp	49810	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096523.325974	CiBPyc1m8aPooHhgD6	64.137.168.72	53195	224.0.0.252	5355	udp	49810	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096522.909436	CmRIXn2BCITlG1ooMe	fe80::855b:7119:2700:5c63	61565	ff02::1:3	5355	udp	45828	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096522.909457	C9Av0k23ST0VeXpCic	64.137.168.72	61565	224.0.0.252	5355	udp	45828	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096522.908257	CWbzVc1HXlnq5XmC4e	64.137.168.72	137	64.137.168.255	137	udp	63683	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096523.701578	CWbzVc1HXlnq5XmC4e	64.137.168.72	137	64.137.168.255	137	udp	63683	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096524.498438	CWbzVc1HXlnq5XmC4e	64.137.168.72	137	64.137.168.255	137	udp	63683	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096569.631346	Cz10D21zy4cFXjG241	fe80::5181:1a1b:ff45:9f5a	54924	ff02::1:3	5355	udp	39619	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096569.631377	CePnvx1WWhh414A4n9	64.137.168.93	53539	224.0.0.252	5355	udp	39619	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096584.492417	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42008	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096585.254216	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42008	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096586.020182	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42008	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096579.430324	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42005	-	WWW.BAJS.CN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096580.191666	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42005	-	WWW.BAJS.CN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096580.980952	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42005	-	WWW.BAJS.CN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096582.220471	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42007	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096583.003397	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42007	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096583.737629	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42007	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096599.307366	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42009	-	WWW.BAJS.CN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096600.080672	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42009	-	WWW.BAJS.CN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096600.813821	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42009	-	WWW.BAJS.CN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096579.838837	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42006	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096580.583163	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42006	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096581.333572	CdtS141Wgb8aleyA0g	64.137.168.93	137	64.137.168.255	137	udp	42006	-	S.COLO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096684.762799	CkJiJc33M8Rzjwxew	fe80::d558:c4d9:588c:30e6	50691	ff02::1:3	5355	udp	20446	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096685.182173	CkJiJc33M8Rzjwxew	fe80::d558:c4d9:588c:30e6	50691	ff02::1:3	5355	udp	20446	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096684.762939	CGUaBe2ggAA5BtZi5d	64.137.168.148	50691	224.0.0.252	5355	udp	20446	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096685.182205	CGUaBe2ggAA5BtZi5d	64.137.168.148	50691	224.0.0.252	5355	udp	20446	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096684.762557	CLPY9K3jOCuuJlI9a7	64.137.168.148	137	64.137.168.255	137	udp	53658	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096685.572454	CLPY9K3jOCuuJlI9a7	64.137.168.148	137	64.137.168.255	137	udp	53658	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096686.322501	CLPY9K3jOCuuJlI9a7	64.137.168.148	137	64.137.168.255	137	udp	53658	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096714.877733	CG1TklKJy1MO2V6Za	64.137.168.93	137	64.137.168.255	137	udp	42010	-	HYIP.CO.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096715.627498	CG1TklKJy1MO2V6Za	64.137.168.93	137	64.137.168.255	137	udp	42010	-	HYIP.CO.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096716.377150	CG1TklKJy1MO2V6Za	64.137.168.93	137	64.137.168.255	137	udp	42010	-	HYIP.CO.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096725.846983	Ci9rT237s4QSiKIUM	fe80::1d3:a310:f535:c3ae	60525	ff02::1:3	5355	udp	2759	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096725.955301	Ci9rT237s4QSiKIUM	fe80::1d3:a310:f535:c3ae	60525	ff02::1:3	5355	udp	2759	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096725.847073	CWKHIu3rfZttUM1vv5	64.137.168.192	60413	224.0.0.252	5355	udp	2759	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096725.955354	CWKHIu3rfZttUM1vv5	64.137.168.192	60413	224.0.0.252	5355	udp	2759	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096726.159195	CIpsSy2szXeIjSS246	64.137.168.192	137	64.137.168.255	137	udp	38089	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096726.923078	CIpsSy2szXeIjSS246	64.137.168.192	137	64.137.168.255	137	udp	38089	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096727.676891	CIpsSy2szXeIjSS246	64.137.168.192	137	64.137.168.255	137	udp	38089	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096762.880444	C8pRhE2x66femLSid6	64.137.168.132	36431	8.8.8.8	53	udp	51631	-	13.254.21.129.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	bitstorm.rh.rit.edu	899.000000	F
+1473096762.942012	C8VQ6RnGKXmsq8pOe	64.137.168.132	36575	8.8.8.8	53	udp	12020	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096775.817650	CGMOXz4vhdY90cQb4g	64.137.168.132	53078	8.8.8.8	53	udp	12083	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096775.817452	CGMOXz4vhdY90cQb4g	64.137.168.132	53078	8.8.8.8	53	udp	9364	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096775.829950	CWsBIu4tUSeKIurYfa	64.137.168.132	37614	8.8.8.8	53	udp	22170	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096775.830007	CWsBIu4tUSeKIurYfa	64.137.168.132	37614	8.8.8.8	53	udp	60672	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096775.841933	C63bZd0DinbJYjzci	64.137.168.132	42886	8.8.8.8	53	udp	62506	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096775.841980	C63bZd0DinbJYjzci	64.137.168.132	42886	8.8.8.8	53	udp	29521	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096776.023640	CGrkuX0hwyFz3PG89	64.137.168.132	47527	8.8.8.8	53	udp	40176	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096775.987828	CGrkuX0hwyFz3PG89	64.137.168.132	47527	8.8.8.8	53	udp	65147	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	886.000000	F
+1473096776.150280	CBKnpL2eeVRpzfGYd7	64.137.168.132	60528	8.8.8.8	53	udp	5237	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096776.118469	CBKnpL2eeVRpzfGYd7	64.137.168.132	60528	8.8.8.8	53	udp	46750	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096776.215664	COGOndmiryi0l0l69	64.137.168.132	57071	8.8.8.8	53	udp	5569	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096776.183376	COGOndmiryi0l0l69	64.137.168.132	57071	8.8.8.8	53	udp	58932	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096776.247705	CLWplXMKkEr2NqwVd	64.137.168.132	45173	8.8.8.8	53	udp	11771	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	886.000000	F
+1473096776.304094	CLWplXMKkEr2NqwVd	64.137.168.132	45173	8.8.8.8	53	udp	35489	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096776.334319	C68m8O1dWrOPXpidXj	64.137.168.132	42888	8.8.8.8	53	udp	1590	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096776.334220	C68m8O1dWrOPXpidXj	64.137.168.132	42888	8.8.8.8	53	udp	51296	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473096784.321660	CSYeI9dIFvtj0y6Xi	fe80::2104:48a5:2500:e661	59801	ff02::1:3	5355	udp	56916	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096784.421889	CSYeI9dIFvtj0y6Xi	fe80::2104:48a5:2500:e661	59801	ff02::1:3	5355	udp	56916	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096784.321757	C2zQl63nproPYpwJI3	64.137.168.182	52278	224.0.0.252	5355	udp	56916	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096784.421924	C2zQl63nproPYpwJI3	64.137.168.182	52278	224.0.0.252	5355	udp	56916	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473096784.625818	CVahkG2WvJJCGKc0sf	64.137.168.182	137	64.137.168.255	137	udp	58694	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096785.389788	CVahkG2WvJJCGKc0sf	64.137.168.182	137	64.137.168.255	137	udp	58694	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096786.154151	CVahkG2WvJJCGKc0sf	64.137.168.182	137	64.137.168.255	137	udp	58694	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096788.445460	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42012	-	WWWTECH2DAY.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096789.194970	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42012	-	WWWTECH2DAY.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096789.944679	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42012	-	WWWTECH2DAY.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096792.188692	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42013	-	S4.0	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096792.938170	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42013	-	S4.0	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096793.763351	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42013	-	S4.0	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096786.415492	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42011	-	S4.0	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096787.164400	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42011	-	S4.0	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096787.914493	Ca3ZTy2mBCK8SrrvVi	64.137.168.93	137	64.137.168.255	137	udp	42011	-	S4.0	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096807.964142	C6YOBFF9rBoTP0Ys7	64.137.168.93	137	64.137.168.255	137	udp	42014	-	WWWTECH2DAY.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096808.836371	C6YOBFF9rBoTP0Ys7	64.137.168.93	137	64.137.168.255	137	udp	42014	-	WWWTECH2DAY.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096809.593287	C6YOBFF9rBoTP0Ys7	64.137.168.93	137	64.137.168.255	137	udp	42014	-	WWWTECH2DAY.IN	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473096844.397235	CDY46l2onPxWNzOqW4	fe80::8c34:1742:e5a8:307e	58449	ff02::1:3	5355	udp	8526	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096844.397359	CHzgpe17rI3uPefDXd	64.137.168.19	52417	224.0.0.252	5355	udp	8526	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096917.212637	Cj8Z7D2ykpmamzYJD4	64.137.168.132	42278	8.8.8.8	53	udp	31623	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	758.000000	F
+1473096917.212658	Cj8Z7D2ykpmamzYJD4	64.137.168.132	42278	8.8.8.8	53	udp	12347	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096917.217923	CdLz8s2MzDx0jUCIX3	64.137.168.132	48436	8.8.8.8	53	udp	46568	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	758.000000	F
+1473096917.217967	CdLz8s2MzDx0jUCIX3	64.137.168.132	48436	8.8.8.8	53	udp	25249	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096923.567276	ClBKtq4nAy1Q32TFWh	64.137.168.132	52306	8.8.8.8	53	udp	8390	-	13.254.21.129.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	bitstorm.rh.rit.edu	738.000000	F
+1473096923.597288	COfOjh2BESpyAReEQd	64.137.168.132	39619	8.8.8.8	53	udp	23288	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	738.000000	F
+1473096923.906440	C9RcuD1Ghuigby4j15	fe80::250:56ff:fe95:4302	5353	ff02::fb	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1473096923.906501	CYz6gz12eGXi2e39Q3	64.137.168.168	5353	224.0.0.251	5353	udp	0	-	_ipps._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1473096928.655549	C3bCfS4ufq0Oboqdi	64.137.168.132	45734	8.8.8.8	53	udp	34942	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.655500	C3bCfS4ufq0Oboqdi	64.137.168.132	45734	8.8.8.8	53	udp	26534	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	746.000000	F
+1473096928.665866	CIRVTP14KbjLZWq7U4	64.137.168.132	41693	8.8.8.8	53	udp	2257	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.665787	CIRVTP14KbjLZWq7U4	64.137.168.132	41693	8.8.8.8	53	udp	35358	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	746.000000	F
+1473096928.674072	C2SDSH2qBbiNz25zkc	64.137.168.132	35224	8.8.8.8	53	udp	23666	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.674048	C2SDSH2qBbiNz25zkc	64.137.168.132	35224	8.8.8.8	53	udp	25243	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	746.000000	F
+1473096928.790458	C5EaIy3Gtvq9Ixnv6l	64.137.168.132	39844	8.8.8.8	53	udp	35423	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.814629	C5EaIy3Gtvq9Ixnv6l	64.137.168.132	39844	8.8.8.8	53	udp	20819	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	733.000000	F
+1473096928.855819	CtET2r3ofjWb2l97ia	64.137.168.132	35377	8.8.8.8	53	udp	38537	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.855779	CtET2r3ofjWb2l97ia	64.137.168.132	35377	8.8.8.8	53	udp	53344	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	733.000000	F
+1473096928.893773	CVEN2Y1carlewNybs8	64.137.168.132	33174	8.8.8.8	53	udp	64670	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.893747	CVEN2Y1carlewNybs8	64.137.168.132	33174	8.8.8.8	53	udp	53114	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	733.000000	F
+1473096928.923293	CfYgCLfgtLDYqEpik	64.137.168.132	41663	8.8.8.8	53	udp	47793	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.898907	CfYgCLfgtLDYqEpik	64.137.168.132	41663	8.8.8.8	53	udp	36259	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	746.000000	F
+1473096928.930726	CZmhLOy3dZOIDSr64	64.137.168.132	52227	8.8.8.8	53	udp	9341	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096928.930693	CZmhLOy3dZOIDSr64	64.137.168.132	52227	8.8.8.8	53	udp	21258	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	746.000000	F
+1473096938.281061	CAj0UuKQWGy2gnK1c	64.137.168.132	51995	8.8.8.8	53	udp	6171	-	mirrorlist.centos.org	-	-	-	-	0	NOERROR	F	F	F	T	0	85.236.43.108,212.69.166.138,216.176.179.218,67.219.148.138	17.000000,17.000000,17.000000,17.000000	F
+1473096938.281105	CAj0UuKQWGy2gnK1c	64.137.168.132	51995	8.8.8.8	53	udp	6754	-	mirrorlist.centos.org	-	-	-	-	0	NOERROR	F	F	F	T	0	2607:f8f8:700:12::10,2604:1580:fe02:2::10,2001:4178:5:200::10,2001:1b48:203::4:10	27.000000,27.000000,27.000000,27.000000	F
+1473096938.707261	CgofYdxEKgsy1GU8k	64.137.168.132	45729	8.8.8.8	53	udp	58881	-	mirror.its.dal.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	2001:410:a000:50::20	202.000000	F
+1473096938.706991	CgofYdxEKgsy1GU8k	64.137.168.132	45729	8.8.8.8	53	udp	31859	-	mirror.its.dal.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	192.75.96.254	1730.000000	F
+1473096939.626365	CJuyFJowXwOO4TmN4	64.137.168.132	38108	8.8.8.8	53	udp	24122	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	2607:5300:60:7146::d1e1:1	18350.000000	F
+1473096939.626316	CJuyFJowXwOO4TmN4	64.137.168.132	38108	8.8.8.8	53	udp	54417	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	2336.000000	F
+1473096940.093110	CCPv0t28eVSH30nGOl	64.137.168.132	54159	8.8.8.8	53	udp	64554	-	less.cogeco.net	-	-	-	-	0	NOERROR	F	F	F	T	0	24.226.6.67	17788.000000	F
+1473096940.117330	CCPv0t28eVSH30nGOl	64.137.168.132	54159	8.8.8.8	53	udp	1642	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473096940.498534	Cl5S2A1CyTr91n70I1	64.137.168.132	38617	8.8.8.8	53	udp	6101	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	10306.000000	F
+1473096940.499439	Cahmmd3LjV1y4r7TZ6	64.137.168.132	43198	8.8.8.8	53	udp	19431	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	10306.000000	F
+1473096940.499996	CNKRii20EMokiMtxE7	64.137.168.132	36321	8.8.8.8	53	udp	64460	-	mirror.its.sfu.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	eukaryota.its.sfu.ca,142.58.101.156	17741.000000,2233.000000	F
+1473096940.500799	CYLYLUAHSMSUvsgsg	64.137.168.132	50970	8.8.8.8	53	udp	16400	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	8864.000000	F
+1473096940.500810	CGsLXd4OnTcUJwREv7	64.137.168.132	53616	8.8.8.8	53	udp	20400	-	mirror.its.sfu.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	eukaryota.its.sfu.ca,142.58.101.156	17917.000000,10232.000000	F
+1473096970.140673	CuqrwR2KGx5mPaY6O5	64.137.168.132	60447	8.8.8.8	53	udp	55392	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	11676.000000	F
+1473096970.115678	C5dRU32a7UJTbqEcwl	64.137.168.132	43572	8.8.8.8	53	udp	64741	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	9746.000000	F
+1473096970.116177	CT4PXc4bMKFChXVM44	64.137.168.132	56905	8.8.8.8	53	udp	4222	-	mirror.its.sfu.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	eukaryota.its.sfu.ca,142.58.101.156	18931.000000,11788.000000	F
+1473096970.117201	C745yh2P587qc2cvJ3	64.137.168.132	40644	8.8.8.8	53	udp	49189	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	8798.000000	F
+1473096970.117729	Ce0Xw6Al1rTLJCpve	64.137.168.132	50544	8.8.8.8	53	udp	51271	-	mirror.its.sfu.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	eukaryota.its.sfu.ca,142.58.101.156	17711.000000,2203.000000	F
+1473096971.843811	CL0mXx1qSruRvIQnI3	fe80::21c8:aa30:c678:1697	63328	ff02::1:3	5355	udp	38579	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096971.843959	CS3LSx2L0wDGNiMaq3	64.137.168.116	50288	224.0.0.252	5355	udp	38579	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096980.868679	CNTF414mz8QpCfFDgg	64.137.168.132	33222	8.8.8.8	53	udp	52607	-	mirror.csclub.uwaterloo.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	129.97.134.71	3741.000000	F
+1473096980.868715	CNTF414mz8QpCfFDgg	64.137.168.132	33222	8.8.8.8	53	udp	13609	-	mirror.csclub.uwaterloo.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	2620:101:f000:4901:c5c:0:f:1055	10610.000000	F
+1473096985.894034	CMhj3h2SOdC7Mb4DC4	64.137.168.132	49634	8.8.8.8	53	udp	9127	-	mirrors.fedoraproject.org	-	-	-	-	0	NOERROR	F	F	F	T	0	wildcard.fedoraproject.org,209.132.181.16,152.19.134.198,209.132.181.15,67.219.144.68,140.211.169.196,152.19.134.142,174.141.234.172,140.211.169.206	271.000000,33.000000,33.000000,33.000000,33.000000,33.000000,33.000000,33.000000,33.000000	F
+1473096985.895253	CMhj3h2SOdC7Mb4DC4	64.137.168.132	49634	8.8.8.8	53	udp	45427	-	mirrors.fedoraproject.org	-	-	-	-	0	NOERROR	F	F	F	T	0	wildcard.fedoraproject.org,2604:1580:fe00:0:dead:beef:cafe:fed1,2610:28:3090:3001:dead:beef:cafe:fed3	256.000000,16.000000,16.000000	F
+1473096986.714346	C3VNfR8Yr0TQELeJf	64.137.168.132	36367	8.8.8.8	53	udp	10073	-	muug.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	2605:e200:3:4::244	6622.000000	F
+1473096986.690269	C3VNfR8Yr0TQELeJf	64.137.168.132	36367	8.8.8.8	53	udp	50720	-	muug.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	208.81.1.244	2240.000000	F
+1473096987.022204	C66vAV2B3ceq5qeSn3	64.137.168.132	52411	8.8.8.8	53	udp	18500	-	muug.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	2605:e200:3:4::244	6176.000000	F
+1473096986.997872	C66vAV2B3ceq5qeSn3	64.137.168.132	52411	8.8.8.8	53	udp	7693	-	muug.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	208.81.1.244	2244.000000	F
+1473096987.064505	CRk5J43iXi2LZN3Hgj	64.137.168.132	37563	8.8.8.8	53	udp	21960	-	ca.mirror.babylon.network	-	-	-	-	0	NOERROR	F	F	F	T	0	2607:5300:60:3a71::30	4315.000000	F
+1473096987.064356	CRk5J43iXi2LZN3Hgj	64.137.168.132	37563	8.8.8.8	53	udp	17237	-	ca.mirror.babylon.network	-	-	-	-	0	NOERROR	F	F	F	T	0	149.56.229.30	4300.000000	F
+1473096987.099523	CRhBDM375RtYYnabkg	64.137.168.132	58104	8.8.8.8	53	udp	59263	-	fedora.westmancom.com	-	-	-	-	0	NOERROR	F	F	F	T	0	216.36.128.35	66.000000	F
+1473096987.099614	CRhBDM375RtYYnabkg	64.137.168.132	58104	8.8.8.8	53	udp	10274	-	fedora.westmancom.com	-	-	-	-	0	NOERROR	F	F	F	T	0	2607:0:2:1:216:36:128:35	6325.000000	F
+1473096991.702386	CUTNas1E1beyYJhSdg	64.137.168.132	36833	8.8.8.8	53	udp	10911	-	mirror2.evolution-host.com	-	-	-	-	0	NOERROR	F	F	F	T	0	167.114.47.151	1751.000000	F
+1473096991.727165	CUJQSX3E4WRl4Caeb	64.137.168.132	54318	8.8.8.8	53	udp	10919	-	fedora.westmancom.com	-	-	-	-	0	NOERROR	F	F	F	T	0	216.36.128.35	264.000000	F
+1473096991.703887	CiuEXF2adOtzqfhRwe	64.137.168.132	49375	8.8.8.8	53	udp	16945	-	mirrors.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	smoke.rc.rit.edu,129.21.171.72	74.000000,21374.000000	F
+1473096991.728504	CS9UQk1bu7vpcXAqTd	64.137.168.132	38835	8.8.8.8	53	udp	54947	-	mirror.sfo12.us.leaseweb.net	-	-	-	-	0	NOERROR	F	F	F	T	0	209.58.135.187	2526.000000	F
+1473096991.705451	CJeJdt1VP64knHX3yd	64.137.168.132	52690	8.8.8.8	53	udp	51785	-	mirror.us.leaseweb.net	-	-	-	-	0	NOERROR	F	F	F	T	0	mirror.wdc1.us.leaseweb.net,108.59.10.97	926.000000,926.000000	F
+1473096991.706993	Cp2TEk2Ek00TAbVCL	64.137.168.132	35002	8.8.8.8	53	udp	65209	-	mirror.math.princeton.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	128.112.18.21	442.000000	F
+1473096991.708142	CR1OQC5VlpQflaEWi	64.137.168.132	53545	8.8.8.8	53	udp	7875	-	mirrors.mit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	18.7.29.125	899.000000	F
+1473096991.732418	CzR3U71FpIxRWs9oRd	64.137.168.132	34508	8.8.8.8	53	udp	13893	-	mirror.steadfast.net	-	-	-	-	0	NOERROR	F	F	F	T	0	208.100.4.53	21107.000000	F
+1473096991.709252	CO0qtG47nk2ckHltaj	64.137.168.132	32771	8.8.8.8	53	udp	20016	-	ftp.linux.ncsu.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	linux00ss.unity.ncsu.edu,152.1.2.172	1475.000000,1475.000000	F
+1473096991.709858	CiCffj2OIKHN7MC0gf	64.137.168.132	48673	8.8.8.8	53	udp	27294	-	mirror.cs.princeton.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	reflect.cs.princeton.edu,128.112.136.119	5556.000000,5556.000000	F
+1473096991.710987	CU90vTHL0h9zof6Ui	64.137.168.132	58413	8.8.8.8	53	udp	43633	-	mirror.chpc.utah.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	204.99.128.20	1398.000000	F
+1473096991.711218	C3LaA42fOQ8MiEQzjl	64.137.168.132	45509	8.8.8.8	53	udp	1710	-	mirror.datto.com	-	-	-	-	0	NOERROR	F	F	F	T	0	198.49.95.5	1157.000000	F
+1473096991.737208	CkYJrP2ahQfhXyB4m	64.137.168.132	38288	8.8.8.8	53	udp	61170	-	lug.mtu.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	141.219.84.84	21248.000000	F
+1473096991.737221	ClSF73Raej3FjVL0f	64.137.168.132	52168	8.8.8.8	53	udp	36441	-	mirror.oss.ou.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.15.254.36	15475.000000	F
+1473096991.737240	C11dyg3bvdJhyymnIk	64.137.168.132	50978	8.8.8.8	53	udp	30370	-	mirror.prgmr.com	-	-	-	-	0	NOERROR	F	F	F	T	0	71.19.148.193	3582.000000	F
+1473096991.737889	CubXzQ78CHwcB1VD5	64.137.168.132	49979	8.8.8.8	53	udp	30362	-	ftp.osuosl.org	-	-	-	-	0	NOERROR	F	F	F	T	0	64.50.236.52,140.211.166.134,64.50.233.100	251.000000,251.000000,251.000000	F
+1473096991.754248	CsvPT43ZAEBY7n9Ycb	64.137.168.132	42540	8.8.8.8	53	udp	19991	-	fedora.mirrors.pair.com	-	-	-	-	0	NOERROR	F	F	F	T	0	216.92.2.158	1858.000000	F
+1473096991.788309	CIN5AJ1yNkgBYLpOVi	64.137.168.132	55064	8.8.8.8	53	udp	7992	-	mirror.compevo.com	-	-	-	-	0	NOERROR	F	F	F	T	0	103.25.61.44	18548.000000	F
+1473096991.788681	CQq0hn25NQ6Rjd66Mg	64.137.168.132	49728	8.8.8.8	53	udp	61404	-	mirror.symnds.com	-	-	-	-	0	NOERROR	F	F	F	T	0	63.245.196.124	705.000000	F
+1473096991.807068	Cgkp5O1SunIquYhvi7	64.137.168.132	51638	8.8.8.8	53	udp	37832	-	mirrors.syringanetworks.net	-	-	-	-	0	NOERROR	F	F	F	T	0	66.232.64.7	2121.000000	F
+1473096991.807360	CBvcbK3AAWB3mOExh3	64.137.168.132	34157	8.8.8.8	53	udp	22373	-	mirror.metrocast.net	-	-	-	-	0	NOERROR	F	F	F	T	0	65.175.128.102	15578.000000	F
+1473096991.808357	CYj9sc3Qy6q9bOJq8	64.137.168.132	52178	8.8.8.8	53	udp	11060	-	mirror.cs.pitt.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	136.142.23.206	65.000000	F
+1473096991.809364	CWQwN3nDdTfOk1Qxj	64.137.168.132	35980	8.8.8.8	53	udp	39890	-	mirror.cogentco.com	-	-	-	-	0	NOERROR	F	F	F	T	0	204.157.3.70	4425.000000	F
+1473096991.836644	C72hUI2Yl6zVjCYQwd	64.137.168.132	49551	8.8.8.8	53	udp	47023	-	mirrors.kernel.org	-	-	-	-	0	NOERROR	F	F	F	T	0	mirrors.us.kernel.org,198.145.20.143,149.20.37.36	581.000000,581.000000,581.000000	F
+1473096991.813051	CRSq1A4Ye5PeeYv1Df	64.137.168.132	52515	8.8.8.8	53	udp	59200	-	linux.mirrors.es.net	-	-	-	-	0	NOERROR	F	F	F	T	0	198.129.224.35	18789.000000	F
+1473096991.838722	CQTasV2KtUzdiyHye	64.137.168.132	44607	8.8.8.8	53	udp	4638	-	mirror.nexcess.net	-	-	-	-	0	NOERROR	F	F	F	T	0	208.69.120.55	7495.000000	F
+1473096991.840133	CFzwsv4AxKjauwcK61	64.137.168.132	34276	8.8.8.8	53	udp	4612	-	mirrors.cat.pdx.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	131.252.208.20	13341.000000	F
+1473096991.817186	Cd3XbGBPtVCAUv3Yl	64.137.168.132	52539	8.8.8.8	53	udp	59096	-	archive.linux.duke.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	152.3.102.53	679.000000	F
+1473096991.817410	C9GvXx2GBklkxCv0vg	64.137.168.132	32953	8.8.8.8	53	udp	21029	-	reflector.westga.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	160.10.5.26	1761.000000	F
+1473096991.842177	C7OsJsai39olIhggg	64.137.168.132	43945	8.8.8.8	53	udp	33304	-	mirrors.tummy.com	-	-	-	-	0	NOERROR	F	F	F	T	0	66.35.36.129	127.000000	F
+1473096991.848673	C2n8bU00xlgrmbXad	64.137.168.132	49791	8.8.8.8	53	udp	41607	-	dl.fedoraproject.org	-	-	-	-	0	NOERROR	F	F	F	T	0	209.132.181.24,209.132.181.25,209.132.181.23,209.132.181.26,209.132.181.27	94.000000,94.000000,94.000000,94.000000,94.000000	F
+1473096991.820450	CJXAwZrf6Pkb3SV9d	64.137.168.132	42720	8.8.8.8	53	udp	25296	-	mirror.its.sfu.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	eukaryota.its.sfu.ca,142.58.101.156	17689.000000,2181.000000	F
+1473096991.821458	CiqWxC2XIjj8y1Tp8j	64.137.168.132	43131	8.8.8.8	53	udp	64028	-	mirror.its.sfu.ca	-	-	-	-	0	NOERROR	F	F	F	T	0	eukaryota.its.sfu.ca,142.58.101.156	17689.000000,2181.000000	F
+1473096997.633181	CBpnuSTdrpc4ItYN5	64.137.168.132	47886	8.8.8.8	53	udp	48393	-	mirrors.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	smoke.rc.rit.edu,129.21.171.72	73.000000,21373.000000	F
+1473096997.633281	CBpnuSTdrpc4ItYN5	64.137.168.132	47886	8.8.8.8	53	udp	15165	-	mirrors.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	smoke.rc.rit.edu,2620:8d:8000:15:225:90ff:fefd:344c	59.000000,61.000000	F
+1473096998.402128	C5K2co4Tu4SRuzKPob	fe80::1dd:39b6:188d:90be	49478	ff02::1:3	5355	udp	6705	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473096998.402178	Ceh00N1bj8kYjBuxh3	64.137.168.14	49842	224.0.0.252	5355	udp	6705	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097025.602986	Cjsvmt3psHrN3h6Zzl	fe80::d558:c4d9:588c:30e6	61429	ff02::1:3	5355	udp	11413	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097026.024017	Cjsvmt3psHrN3h6Zzl	fe80::d558:c4d9:588c:30e6	61429	ff02::1:3	5355	udp	11413	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097025.603003	CwWdXI3vgfXECDGIC4	64.137.168.148	61429	224.0.0.252	5355	udp	11413	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097026.024044	CwWdXI3vgfXECDGIC4	64.137.168.148	61429	224.0.0.252	5355	udp	11413	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097025.603006	CP4NFeUxwkWoogjh2	fe80::d558:c4d9:588c:30e6	56816	ff02::1:3	5355	udp	6745	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473097026.024051	CP4NFeUxwkWoogjh2	fe80::d558:c4d9:588c:30e6	56816	ff02::1:3	5355	udp	6745	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473097025.603010	CACeOA7uuwgH5i5re	64.137.168.148	56816	224.0.0.252	5355	udp	6745	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473097026.024055	CACeOA7uuwgH5i5re	64.137.168.148	56816	224.0.0.252	5355	udp	6745	-	wpad	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1473097025.602784	CC9hXt3T7hzuq6pK8e	64.137.168.148	137	64.137.168.255	137	udp	53659	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097026.383428	CC9hXt3T7hzuq6pK8e	64.137.168.148	137	64.137.168.255	137	udp	53659	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097027.145090	CC9hXt3T7hzuq6pK8e	64.137.168.148	137	64.137.168.255	137	udp	53659	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097041.599740	CAl2AH1ICTejZUnNNk	fe80::4936:e111:1604:92d2	58815	ff02::1:3	5355	udp	63380	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097041.599765	CUiPvU2xo0pJLhy7b	64.137.168.65	64079	224.0.0.252	5355	udp	63380	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097071.602206	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42020	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097072.358370	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42020	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097073.122985	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42020	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097051.225265	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42015	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097052.024205	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42015	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097052.739191	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42015	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097068.485597	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42019	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097069.245123	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42019	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097069.994861	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42019	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097075.046101	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42021	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097075.806150	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42021	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097076.570555	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42021	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097055.854074	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42017	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097056.645816	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42017	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097057.403838	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42017	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097058.172427	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42018	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097058.932767	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42018	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097059.697093	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42018	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097053.522365	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42016	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097054.283861	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42016	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097055.048384	CA7g2g1aYF6PhCmZXl	64.137.168.93	137	64.137.168.255	137	udp	42016	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097082.512610	C5t5y42cclHMzSB9hc	fe80::511:d348:ac27:ce64	59174	ff02::1:3	5355	udp	61568	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097082.512662	Cyr7w5yBJ0FklKX9c	64.137.168.69	53817	224.0.0.252	5355	udp	61568	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097105.599883	C5k2WB2BbaZK6t9nB1	64.137.168.93	137	64.137.168.255	137	udp	42022	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097106.338685	C5k2WB2BbaZK6t9nB1	64.137.168.93	137	64.137.168.255	137	udp	42022	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097107.088725	C5k2WB2BbaZK6t9nB1	64.137.168.93	137	64.137.168.255	137	udp	42022	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097112.650887	C5k2WB2BbaZK6t9nB1	64.137.168.93	137	64.137.168.255	137	udp	42023	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097113.400787	C5k2WB2BbaZK6t9nB1	64.137.168.93	137	64.137.168.255	137	udp	42023	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097114.151856	C5k2WB2BbaZK6t9nB1	64.137.168.93	137	64.137.168.255	137	udp	42023	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097142.178919	C5ze4Bg7bQDS0rwKk	fe80::2104:48a5:2500:e661	64835	ff02::1:3	5355	udp	50849	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097142.179063	Cf2Lf03gJwTSeBXC1h	64.137.168.182	61534	224.0.0.252	5355	udp	50849	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097142.149281	CaxQML2dYbpsmtZ6ue	64.137.168.93	137	64.137.168.255	137	udp	42024	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097142.934191	CaxQML2dYbpsmtZ6ue	64.137.168.93	137	64.137.168.255	137	udp	42024	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097143.660893	CaxQML2dYbpsmtZ6ue	64.137.168.93	137	64.137.168.255	137	udp	42024	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097133.981172	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49750	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097134.730911	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49750	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097135.481105	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49750	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097142.604503	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49753	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097143.354563	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49753	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097144.103750	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49753	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097158.398208	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49759	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097159.146502	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49759	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097159.896395	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49759	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097127.123555	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49747	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097127.871021	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49747	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097128.621113	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49747	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097166.009091	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49762	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097166.758347	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49762	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097167.508140	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49762	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097144.855872	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49754	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097145.605053	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49754	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097146.359404	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49754	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097163.446188	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49761	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097164.195990	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49761	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097164.945804	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49761	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097171.702010	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49763	-	AFX.TAGCDN.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097172.451207	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49763	-	AFX.TAGCDN.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097173.200777	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49763	-	AFX.TAGCDN.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097138.490191	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49752	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097139.239839	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49752	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097139.989278	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49752	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097148.408933	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49755	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097149.158453	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49755	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097149.908550	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49755	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097180.072003	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49764	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097180.821333	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49764	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097181.571625	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49764	-	CTR.1688.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097129.468752	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49748	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097130.217338	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49748	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097130.967527	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49748	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097131.727312	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49749	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097132.476720	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49749	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097133.226706	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49749	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097161.094850	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49760	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097161.844642	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49760	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097162.594706	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49760	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097153.799886	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49757	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097154.548996	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49757	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097155.299116	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49757	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097151.258004	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49756	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097152.007649	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49756	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097152.757954	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49756	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097156.145091	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49758	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097156.894066	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49758	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097157.644304	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49758	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097136.238934	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49751	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097136.988251	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49751	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097137.738200	C12xJ8pXjx87AWk1	64.137.168.19	137	64.137.168.255	137	udp	49751	-	WWW.EXCROID.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097218.828470	CwuEUpsgBgF9xYOaf	fe80::1532:b4ac:17e7:7445	51167	ff02::1:3	5355	udp	19212	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097219.246099	CwuEUpsgBgF9xYOaf	fe80::1532:b4ac:17e7:7445	51167	ff02::1:3	5355	udp	19212	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097218.828549	Cm3P4J3k9S2SObP3ub	64.137.168.62	51167	224.0.0.252	5355	udp	19212	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097219.246132	Cm3P4J3k9S2SObP3ub	64.137.168.62	51167	224.0.0.252	5355	udp	19212	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097211.584440	Cxdr4FbQQpeIT70hl	64.137.168.19	137	64.137.168.255	137	udp	49765	-	DZ-TUTORIAL.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097212.311226	Cxdr4FbQQpeIT70hl	64.137.168.19	137	64.137.168.255	137	udp	49765	-	DZ-TUTORIAL.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097213.064481	Cxdr4FbQQpeIT70hl	64.137.168.19	137	64.137.168.255	137	udp	49765	-	DZ-TUTORIAL.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097218.828309	CVrahq1AToNkeHb2j2	64.137.168.62	137	64.137.168.255	137	udp	35428	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097219.613046	CVrahq1AToNkeHb2j2	64.137.168.62	137	64.137.168.255	137	udp	35428	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097220.324335	CVrahq1AToNkeHb2j2	64.137.168.62	137	64.137.168.255	137	udp	35428	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097241.346559	CHaltD4rQfJ23aZNZk	64.137.168.19	137	64.137.168.255	137	udp	49766	-	GO.FTBPRO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097242.096155	CHaltD4rQfJ23aZNZk	64.137.168.19	137	64.137.168.255	137	udp	49766	-	GO.FTBPRO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097242.846156	CHaltD4rQfJ23aZNZk	64.137.168.19	137	64.137.168.255	137	udp	49766	-	GO.FTBPRO.COM	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097266.205529	Cm9Yd83QnLiJk7wM6k	fe80::9cc3:3806:1153:59f3	65450	ff02::1:3	5355	udp	42946	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097266.205994	CbpxDj4oSbUAh2H31e	64.137.168.68	63276	224.0.0.252	5355	udp	42946	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097361.358570	C6dWsA2V67BiGXLTi9	64.137.168.182	5353	224.0.0.251	5353	udp	0	-	_sleep-proxy._udp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1473097386.940143	Cw97Kn1DekMbCjmwr7	fe80::2104:48a5:2500:e661	62382	ff02::1:3	5355	udp	26014	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097387.035838	Cw97Kn1DekMbCjmwr7	fe80::2104:48a5:2500:e661	62382	ff02::1:3	5355	udp	26014	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097386.940216	CNA2gS2IuOHoFaMEX	64.137.168.182	55924	224.0.0.252	5355	udp	26014	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097387.036039	CNA2gS2IuOHoFaMEX	64.137.168.182	55924	224.0.0.252	5355	udp	26014	-	wpad	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097387.243530	Cy7CVo4RUrItD3KFHj	64.137.168.182	137	64.137.168.255	137	udp	58695	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097388.003594	Cy7CVo4RUrItD3KFHj	64.137.168.182	137	64.137.168.255	137	udp	58695	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097388.767949	Cy7CVo4RUrItD3KFHj	64.137.168.182	137	64.137.168.255	137	udp	58695	-	WPAD	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097469.789468	CsB1o8j846wMsti	fe80::5181:1a1b:ff45:9f5a	53604	ff02::1:3	5355	udp	54423	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097469.790432	C6YxYHny3KfTfu11e	64.137.168.93	50135	224.0.0.252	5355	udp	54423	-	desktop	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097473.645633	Cq1FdH3AOJkNLrWEjb	64.137.168.19	137	64.137.168.255	137	udp	49767	-	2SHARE.TOP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097474.395298	Cq1FdH3AOJkNLrWEjb	64.137.168.19	137	64.137.168.255	137	udp	49767	-	2SHARE.TOP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097475.145128	Cq1FdH3AOJkNLrWEjb	64.137.168.19	137	64.137.168.255	137	udp	49767	-	2SHARE.TOP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097505.296357	ClDnrO26HG23DseY31	fe80::d9f1:d8b3:4716:8ae3	56059	ff02::1:3	5355	udp	12568	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097505.703661	ClDnrO26HG23DseY31	fe80::d9f1:d8b3:4716:8ae3	56059	ff02::1:3	5355	udp	12568	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097505.296366	Cznv0zJf7QcUoV6Gi	64.137.168.53	56059	224.0.0.252	5355	udp	12568	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097505.703691	Cznv0zJf7QcUoV6Gi	64.137.168.53	56059	224.0.0.252	5355	udp	12568	-	isatap	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1473097505.298828	CSRYIv2fLHXmHemLO9	fe80::d9f1:d8b3:4716:8ae3	64478	ff02::1:3	5355	udp	36561	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097505.299370	CE7pZk3L92L8jcHxwe	64.137.168.53	64478	224.0.0.252	5355	udp	36561	-	win-fo3og88r8d7	1	C_INTERNET	255	*	-	-	F	F	F	F	0	-	-	F
+1473097496.225380	CpoerN3ML0kgNhXl2e	64.137.168.19	137	64.137.168.255	137	udp	49768	-	2SHARE.TOP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097496.975329	CpoerN3ML0kgNhXl2e	64.137.168.19	137	64.137.168.255	137	udp	49768	-	2SHARE.TOP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097497.725364	CpoerN3ML0kgNhXl2e	64.137.168.19	137	64.137.168.255	137	udp	49768	-	2SHARE.TOP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097505.296184	Cnics44JnaYe8EqfK4	64.137.168.53	137	64.137.168.255	137	udp	49622	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097506.047849	Cnics44JnaYe8EqfK4	64.137.168.53	137	64.137.168.255	137	udp	49622	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097506.829037	Cnics44JnaYe8EqfK4	64.137.168.53	137	64.137.168.255	137	udp	49622	-	ISATAP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1473097565.378089	CSR6Lg4ttqXJZf19f9	64.137.168.132	42612	8.8.8.8	53	udp	17138	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097565.409294	CSR6Lg4ttqXJZf19f9	64.137.168.132	42612	8.8.8.8	53	udp	47660	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473097565.439808	CE04wT2PxGBGGbMXFd	64.137.168.132	51111	8.8.8.8	53	udp	23170	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	110.000000	F
+1473097565.486941	CE04wT2PxGBGGbMXFd	64.137.168.132	51111	8.8.8.8	53	udp	52774	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097566.418430	CiFETT2GFvB3PyuLp8	64.137.168.132	45326	8.8.8.8	53	udp	48088	-	13.254.21.129.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	bitstorm.rh.rit.edu	96.000000	F
+1473097566.448923	CmvsxM1cVEH53C2all	64.137.168.132	35678	8.8.8.8	53	udp	23686	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	898.000000	F
+1473097570.014533	CAcsc34lidHWM1pJqb	64.137.168.132	39255	8.8.8.8	53	udp	25888	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	92.000000	F
+1473097570.014563	CAcsc34lidHWM1pJqb	64.137.168.132	39255	8.8.8.8	53	udp	52954	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.024773	C9nGbw4aYUJ1vAasP8	64.137.168.132	56835	8.8.8.8	53	udp	15489	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.024599	C9nGbw4aYUJ1vAasP8	64.137.168.132	56835	8.8.8.8	53	udp	44835	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	894.000000	F
+1473097570.034850	CdbeWz4wSN7A7CWbAa	64.137.168.132	38071	8.8.8.8	53	udp	41627	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	894.000000	F
+1473097570.034959	CdbeWz4wSN7A7CWbAa	64.137.168.132	38071	8.8.8.8	53	udp	18626	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.177786	C7xxRC260soJD6mxW9	64.137.168.132	33191	8.8.8.8	53	udp	25610	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	92.000000	F
+1473097570.177614	C7xxRC260soJD6mxW9	64.137.168.132	33191	8.8.8.8	53	udp	18553	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.315512	CnpKZz2SfHmU3GtMSf	64.137.168.132	49847	8.8.8.8	53	udp	17466	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.316009	CnpKZz2SfHmU3GtMSf	64.137.168.132	49847	8.8.8.8	53	udp	54858	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	894.000000	F
+1473097570.356422	CAhQQSL83CQD6LRQ1	64.137.168.132	51919	8.8.8.8	53	udp	39472	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.356387	CAhQQSL83CQD6LRQ1	64.137.168.132	51919	8.8.8.8	53	udp	46362	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	105.000000	F
+1473097570.361873	CSwmlQ1VwzglN13zAg	64.137.168.132	44412	8.8.8.8	53	udp	55469	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.361786	CSwmlQ1VwzglN13zAg	64.137.168.132	44412	8.8.8.8	53	udp	10218	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	92.000000	F
+1473097570.368643	CoAHTH3Ub7ZcYmWgH	64.137.168.132	39466	8.8.8.8	53	udp	64656	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097570.368577	CoAHTH3Ub7ZcYmWgH	64.137.168.132	39466	8.8.8.8	53	udp	25113	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	894.000000	F
+1473097598.037491	CbkiOl2Bb7e6oondt9	64.137.168.132	53523	8.8.8.8	53	udp	16633	-	13.254.21.129.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	bitstorm.rh.rit.edu	899.000000	F
+1473097598.042696	CJEAaZg0z7RTZqQFh	64.137.168.132	40979	8.8.8.8	53	udp	49418	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	64.000000	F
+1473097598.139209	CXMgCz4JU2lfrzDBK3	64.137.168.132	55685	8.8.8.8	53	udp	43834	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	230.000000	F
+1473097598.139769	CXMgCz4JU2lfrzDBK3	64.137.168.132	55685	8.8.8.8	53	udp	21899	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.149544	CiPhTP1tFji5EUVbG9	64.137.168.132	39634	8.8.8.8	53	udp	3559	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.149526	CiPhTP1tFji5EUVbG9	64.137.168.132	39634	8.8.8.8	53	udp	31150	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	77.000000	F
+1473097598.159849	CqCuQe4ktEFheqxMA6	64.137.168.132	56345	8.8.8.8	53	udp	33357	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	64.000000	F
+1473097598.159888	CqCuQe4ktEFheqxMA6	64.137.168.132	56345	8.8.8.8	53	udp	8128	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.252431	CcMtGH9acjxAUodu1	64.137.168.132	35964	8.8.8.8	53	udp	41079	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	64.000000	F
+1473097598.252468	CcMtGH9acjxAUodu1	64.137.168.132	35964	8.8.8.8	53	udp	9552	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.340661	Cy1QbG7C98z1OWQM9	64.137.168.132	40155	8.8.8.8	53	udp	48568	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473097598.283714	Cy1QbG7C98z1OWQM9	64.137.168.132	40155	8.8.8.8	53	udp	30014	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.377306	C3Ppl61OYutBXxbQS2	64.137.168.132	45455	8.8.8.8	53	udp	3823	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	899.000000	F
+1473097598.377326	C3Ppl61OYutBXxbQS2	64.137.168.132	45455	8.8.8.8	53	udp	29631	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.382607	C1gSn53MNJXnaP4Ct8	64.137.168.132	39899	8.8.8.8	53	udp	7481	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097598.382624	C1gSn53MNJXnaP4Ct8	64.137.168.132	39899	8.8.8.8	53	udp	31862	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	64.000000	F
+1473097598.391841	Cj1Imp2i9OoRyAGtN5	64.137.168.132	48132	8.8.8.8	53	udp	16939	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	64.000000	F
+1473097598.391897	Cj1Imp2i9OoRyAGtN5	64.137.168.132	48132	8.8.8.8	53	udp	5955	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.738874	C5jjsI950vFkn50Dl	64.137.168.132	38006	8.8.8.8	53	udp	47857	-	13.254.21.129.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	bitstorm.rh.rit.edu	859.000000	F
+1473097637.743993	CeFIUINtUv3jV81kk	64.137.168.132	57051	8.8.8.8	53	udp	36618	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	859.000000	F
+1473097637.810194	C2f8Q247v1xTfpuz6h	64.137.168.132	33132	8.8.8.8	53	udp	58135	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.810167	C2f8Q247v1xTfpuz6h	64.137.168.132	33132	8.8.8.8	53	udp	19842	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	24.000000	F
+1473097637.819735	CNDGPy45t6CBVRhnNj	64.137.168.132	35142	8.8.8.8	53	udp	19946	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.819755	CNDGPy45t6CBVRhnNj	64.137.168.132	35142	8.8.8.8	53	udp	63738	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	24.000000	F
+1473097637.828182	CsE0EG1mquDYWzV9Z7	64.137.168.132	55054	8.8.8.8	53	udp	57004	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	826.000000	F
+1473097637.828215	CsE0EG1mquDYWzV9Z7	64.137.168.132	55054	8.8.8.8	53	udp	40825	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.925738	CJe7b54KFaHQFLEEoc	64.137.168.132	38319	8.8.8.8	53	udp	23023	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.925789	CJe7b54KFaHQFLEEoc	64.137.168.132	38319	8.8.8.8	53	udp	17441	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	190.000000	F
+1473097637.962146	CWndsq4C0v0Vb54Pmf	64.137.168.132	54991	8.8.8.8	53	udp	16188	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.962173	CWndsq4C0v0Vb54Pmf	64.137.168.132	54991	8.8.8.8	53	udp	63109	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	190.000000	F
+1473097637.991710	CPeA0w2wEyrZPfHGQc	64.137.168.132	58991	8.8.8.8	53	udp	21961	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	826.000000	F
+1473097637.991761	CPeA0w2wEyrZPfHGQc	64.137.168.132	58991	8.8.8.8	53	udp	16239	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.997036	CY1pyw3Vyo33Xblfk2	64.137.168.132	39277	8.8.8.8	53	udp	43964	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097637.996983	CY1pyw3Vyo33Xblfk2	64.137.168.132	39277	8.8.8.8	53	udp	55696	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	859.000000	F
+1473097638.005611	CTpPxs7jjwlZcxTV7	64.137.168.132	40408	8.8.8.8	53	udp	39241	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	826.000000	F
+1473097638.005646	CTpPxs7jjwlZcxTV7	64.137.168.132	40408	8.8.8.8	53	udp	7156	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.140461	COUTd615E7EUIQgfR8	64.137.168.132	44420	8.8.8.8	53	udp	7293	-	13.254.21.129.in-addr.arpa	-	-	-	-	0	NOERROR	F	F	F	T	0	bitstorm.rh.rit.edu	22.000000	F
+1473097640.146110	Cb3tKa3tlPjISH9gUg	64.137.168.132	40192	8.8.8.8	53	udp	27911	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	35.000000	F
+1473097640.218006	C0c7rm1E0yXsaGmtEh	64.137.168.132	44633	8.8.8.8	53	udp	48442	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.217976	C0c7rm1E0yXsaGmtEh	64.137.168.132	44633	8.8.8.8	53	udp	25359	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	824.000000	F
+1473097640.228639	CdGRNe4yg7S0vTiQKi	64.137.168.132	49148	8.8.8.8	53	udp	53846	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	824.000000	F
+1473097640.228907	CdGRNe4yg7S0vTiQKi	64.137.168.132	49148	8.8.8.8	53	udp	37764	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.237639	CVz5tqo6uGafaMeqk	64.137.168.132	39558	8.8.8.8	53	udp	30570	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.237601	CVz5tqo6uGafaMeqk	64.137.168.132	39558	8.8.8.8	53	udp	55663	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	824.000000	F
+1473097640.333825	CqifJS3twIX6w4p7If	64.137.168.132	45355	8.8.8.8	53	udp	5596	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	857.000000	F
+1473097640.333788	CqifJS3twIX6w4p7If	64.137.168.132	45355	8.8.8.8	53	udp	8054	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.363387	Ccixsoj1E4skYAAR4	64.137.168.132	52986	8.8.8.8	53	udp	17713	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.363417	Ccixsoj1E4skYAAR4	64.137.168.132	52986	8.8.8.8	53	udp	11332	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	824.000000	F
+1473097640.393653	Cb1zdw3m2sFmfpay0g	64.137.168.132	42245	8.8.8.8	53	udp	15277	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.393633	Cb1zdw3m2sFmfpay0g	64.137.168.132	42245	8.8.8.8	53	udp	42717	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	22.000000	F
+1473097640.398997	C66bTm3p4C2ALvzWJ9	64.137.168.132	44164	8.8.8.8	53	udp	26550	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097640.398956	C66bTm3p4C2ALvzWJ9	64.137.168.132	44164	8.8.8.8	53	udp	34604	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	824.000000	F
+1473097640.406992	CB3Tq31gcWJGkYFEyd	64.137.168.132	58699	8.8.8.8	53	udp	33143	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	824.000000	F
+1473097640.407028	CB3Tq31gcWJGkYFEyd	64.137.168.132	58699	8.8.8.8	53	udp	22359	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097643.828651	CsMDWQ1M85NGI14O4e	64.137.168.132	40275	8.8.8.8	53	udp	4191	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	31.000000	F
+1473097643.828743	CsMDWQ1M85NGI14O4e	64.137.168.132	40275	8.8.8.8	53	udp	32041	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097643.834137	CoZWVABk97g4g1sHd	64.137.168.132	53759	8.8.8.8	53	udp	18961	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	31.000000	F
+1473097643.834149	CoZWVABk97g4g1sHd	64.137.168.132	53759	8.8.8.8	53	udp	17155	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097643.928876	CSU30t2m4n6uGkWDpd	64.137.168.132	38162	8.8.8.8	53	udp	28848	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	820.000000	F
+1473097643.929319	CSU30t2m4n6uGkWDpd	64.137.168.132	38162	8.8.8.8	53	udp	4476	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097643.934973	CKYm4b3VjGY31Ddfgb	64.137.168.132	55667	8.8.8.8	53	udp	12828	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	820.000000	F
+1473097643.934997	CKYm4b3VjGY31Ddfgb	64.137.168.132	55667	8.8.8.8	53	udp	46035	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097644.029497	CPwS0jfQKGFzo3uHl	64.137.168.132	49416	8.8.8.8	53	udp	29455	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097644.029439	CPwS0jfQKGFzo3uHl	64.137.168.132	49416	8.8.8.8	53	udp	41429	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	31.000000	F
+1473097644.035410	Cle7YK1V7XKKutB4ya	64.137.168.132	60058	8.8.8.8	53	udp	41829	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097644.035387	Cle7YK1V7XKKutB4ya	64.137.168.132	60058	8.8.8.8	53	udp	19893	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	18.000000	F
+1473097644.114613	CesnQE2jDmjth5ssL5	64.137.168.132	55732	8.8.8.8	53	udp	59489	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	820.000000	F
+1473097644.114445	CesnQE2jDmjth5ssL5	64.137.168.132	55732	8.8.8.8	53	udp	16785	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097644.121367	CWDjG93blIqJCknjW4	64.137.168.132	45681	8.8.8.8	53	udp	63899	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1473097644.121280	CWDjG93blIqJCknjW4	64.137.168.132	45681	8.8.8.8	53	udp	31497	-	bitstorm.rh.rit.edu	-	-	-	-	0	NOERROR	F	F	F	T	0	129.21.254.13	18.000000	F

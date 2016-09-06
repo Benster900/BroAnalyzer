@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2016-09-05-13-35-38
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1473096938.518849	FG1y9U2BLiGnewN6fa	85.236.43.108	64.137.168.132	CWczMzopEHVtRKby6	HTTP	0	SHA1,MD5	text/plain	-	0.000000	F	F	555	555	0	0	F	-	8e09378235a0239a4cb9da99fae88b65	e7b73621bef7236e557ff5371be3b6e718393fe2	-	-
+1473096939.569195	FxBETP22Ggm03xqAJb	85.236.43.108	64.137.168.132	CWczMzopEHVtRKby6	HTTP	0	SHA1,MD5	text/plain	-	0.000000	F	F	606	606	0	0	F	-	e2dc653f4bd3bdd2997be1675a25c0a8	1c2c67ebc1fc66166ee82d48b3f751d087741df6	-	-
+1473096940.085371	FFdRHUUiRgLg705eb	85.236.43.108	64.137.168.132	CWczMzopEHVtRKby6	HTTP	0	SHA1,MD5	text/plain	-	0.000000	F	F	612	612	0	0	F	-	af16b9f259209aa26e986d6f484f52fb	19f2119396379c4a888e812f93a9e75f6695e47d	-	-
+1473096997.703753	Fqo2eW3Dc2bt3IQiRe	129.21.171.72	64.137.168.132	CUSq371HTAEZ4U0sLe	HTTP	0	SHA1,MD5	application/x-rpm	-	0.000000	F	F	1223	100104	0	0	F	-	8e3256e4f096d6162dd4b546898d83d0	9ede881906fd4b53a8e94d093d263f7a4ac800d5	-	-
+1473096938.791440	F7DdVf2c8gsncqICw8	192.75.96.254	64.137.168.132	Cc8adXQv2D79uq4h3	HTTP	0	SHA1,MD5	application/xml	-	0.000000	F	F	1105	3735	0	0	T	-	da65b60ab861db94049d4c8ed7eae82b	e9283d7c6edeb452e1aa2954e7558a75ff4101a0	-	-
+1473096939.681899	FHzyRr11JU4jl90Ug1	167.114.47.151	64.137.168.132	C7ha2f1Yqoblxxoa4i	HTTP	0	SHA1,MD5	application/xml	-	0.000000	F	F	1205	3448	0	0	T	-	c8250246a41a25cdf0d88957967ebcc9	6bb1591a76dadf1cdffee75501e0111560eb092b	-	-
+1473096940.160021	F5lH062mMrpRupjVl6	24.226.6.67	64.137.168.132	C0DjWV26ZOzBj9kP9g	HTTP	0	SHA1,MD5	application/xml	-	0.000000	F	F	1211	3468	0	0	T	-	785811140c8c3895159ffb6027ba9fef	d0b7e530c71d104b5e43b139a4b9fa5a6b305818	-	-
+1473096980.908290	FcDDW11b7YtvzdSuC8	129.97.134.71	64.137.168.132	CpaiTP2X8H1EckqT92	HTTP	0	SHA1,MD5	application/x-rpm	-	0.000000	F	F	1181	14432	0	0	T	-	e2acd5b62fd620b5e1736c77f2e34b14	8a5fb6739f52f71d62c0a3cdbc4c64e050e99b4c	-	-

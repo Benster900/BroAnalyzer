@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2016-09-05-13-35-38
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1473096938.518721	CWczMzopEHVtRKby6	64.137.168.132	48068	85.236.43.108	80	1	-	-	-	-	1.1	-	0	555	200	OK	-	-	(empty)	-	-	-	-	-	-	FG1y9U2BLiGnewN6fa	-	text/plain
+1473096939.569101	CWczMzopEHVtRKby6	64.137.168.132	48068	85.236.43.108	80	2	-	-	-	-	1.1	-	0	606	200	OK	-	-	(empty)	-	-	-	-	-	-	FxBETP22Ggm03xqAJb	-	text/plain
+1473096940.085251	CWczMzopEHVtRKby6	64.137.168.132	48068	85.236.43.108	80	3	-	-	-	-	1.1	-	0	612	200	OK	-	-	(empty)	-	-	-	-	-	-	FFdRHUUiRgLg705eb	-	text/plain
+1473096997.703753	CUSq371HTAEZ4U0sLe	64.137.168.132	36891	129.21.171.72	80	1	-	-	-	-	1.1	-	0	1223	200	OK	-	-	(empty)	-	-	-	-	-	-	Fqo2eW3Dc2bt3IQiRe	-	application/x-rpm
+1473096940.160021	C0DjWV26ZOzBj9kP9g	64.137.168.132	36877	24.226.6.67	80	1	-	-	-	-	1.1	-	0	1211	200	OK	-	-	(empty)	-	-	-	-	-	-	F5lH062mMrpRupjVl6	-	application/xml
+1473096939.681899	C7ha2f1Yqoblxxoa4i	64.137.168.132	39621	167.114.47.151	80	1	-	-	-	-	1.1	-	0	1205	200	OK	-	-	(empty)	-	-	-	-	-	-	FHzyRr11JU4jl90Ug1	-	application/xml
+1473096938.791440	Cc8adXQv2D79uq4h3	64.137.168.132	45467	192.75.96.254	80	1	-	-	-	-	1.1	-	0	1105	200	OK	-	-	(empty)	-	-	-	-	-	-	F7DdVf2c8gsncqICw8	-	application/xml
+1473096980.908290	CpaiTP2X8H1EckqT92	64.137.168.132	46907	129.97.134.71	80	1	-	-	-	-	1.1	-	0	1181	200	OK	-	-	(empty)	-	-	-	-	-	-	FcDDW11b7YtvzdSuC8	-	application/x-rpm

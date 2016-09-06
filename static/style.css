@@ -85,6 +85,11 @@ h1 {
     text-transform: capitalize;
 }
 
+.file-list {
+  color: #565656;
+  text-decoration: underline;
+}
+
 code {
     font-family: Consolas, Monaco, Courier New, Courier, monospace;
     font-size: 12px;

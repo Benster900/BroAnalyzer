@@ -44,6 +44,10 @@ def graphing():
 	except Exception, e:
 		return(str(e))
 
+@app.route('/files')
+def showfiles():
+	return render_template("filelist.html")		
+
 
 
 # Run the app :)
